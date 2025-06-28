@@ -1,0 +1,1507 @@
+[
+    {
+        "question": "According to the Context Text, which of the following is typically a feature associated with cloud storage services provided as Storage as SaaS?",
+        "options": {
+            "A": "Mounting directly to an EC2 instance",
+            "B": "Allowing more control on infrastructural aspects",
+            "C": "Collaborative editing",
+            "D": "Being more cost-effective compared to IaaS/PaaS storage"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L2_cloud_storage.pdf"
+        ]
+    },
+    {
+        "question": "Based on the provided table of AWS Data Storage Services, which service offers unlimited maximum storage volume and is accessed via the AWS API (SDKs, CLI)?",
+        "options": {
+            "A": "EBS (SSD)",
+            "B": "EC2 Instance Store (SSD)",
+            "C": "S3",
+            "D": "EFS"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L2_cloud_storage.pdf"
+        ]
+    },
+    {
+        "question": "In an Amazon S3 object storage system, what are the three main components that constitute an object?",
+        "options": {
+            "A": "File name, Path, Content",
+            "B": "Globally unique identifier, Metadata, Content itself",
+            "C": "Region, Bucket name, Object key",
+            "D": "Availability Zone, Storage Class, Version ID"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L2_cloud_storage.pdf"
+        ]
+    },
+    {
+        "question": "Amazon S3 was one of the initial services released by AWS. According to the text, in which year was S3 first introduced?",
+        "options": {
+            "A": "2004",
+            "B": "2006",
+            "C": "2008",
+            "D": "2010"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L2_cloud_storage.pdf"
+        ]
+    },
+    {
+        "question": "How does Amazon S3 primarily organize data within a bucket, in contrast to a typical file storage system?",
+        "options": {
+            "A": "In a hierarchical folder structure",
+            "B": "Using a flat structure consisting of buckets and objects",
+            "C": "By associating objects with specific EC2 instances",
+            "D": "Through a system of nested folders and subfolders"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L2_cloud_storage.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, which style of Amazon S3 bucket URL includes the bucket name as the hostname?",
+        "options": {
+            "A": "Path-style URL endpoint",
+            "B": "Virtual hosted-style URL endpoint",
+            "C": "Region-style URL endpoint",
+            "D": "Object-style URL endpoint"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L2_cloud_storage.pdf"
+        ]
+    },
+    {
+        "question": "Based on the Amazon S3 pricing information provided, which of the following actions is explicitly stated as NOT incurring charges?",
+        "options": {
+            "A": "Transfers OUT from S3 to other AWS Regions",
+            "B": "PUT, COPY, POST, LIST, or GET requests",
+            "C": "Transfers IN to Amazon S3",
+            "D": "Storage consumed per GB per month"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L2_cloud_storage.pdf"
+        ]
+    },
+    {
+        "question": "Referring to the S3 storage classes breakdown table, which S3 storage class is designed for data stored within a single Availability Zone?",
+        "options": {
+            "A": "S3 Standard",
+            "B": "S3 Intelligent-Tiering",
+            "C": "S3 Standard-IA",
+            "D": "S3 One Zone-IA"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L2_cloud_storage.pdf"
+        ]
+    },
+    {
+        "question": "When Amazon S3 versioning is enabled for a bucket and a DELETE request is made for an object WITHOUT specifying a version ID, what is the default outcome according to the text?",
+        "options": {
+            "A": "The object is permanently deleted from the bucket.",
+            "B": "A delete marker is added, but the object is still retrievable by its version ID.",
+            "C": "The object is moved to a trash or recycle bin.",
+            "D": "The oldest version of the object is deleted."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L2_cloud_storage.pdf"
+        ]
+    },
+    {
+        "question": "If S3 replication is configured between a source and a target bucket, and a DELETE request specifies an object version ID in the source bucket, what happens by default in the target bucket according to the text?",
+        "options": {
+            "A": "The corresponding object version is also deleted in the target bucket.",
+            "B": "A delete marker is added for that version in the target bucket.",
+            "C": "The delete operation is NOT replicated to the target bucket.",
+            "D": "The entire object, including all versions, is deleted from the target bucket."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L2_cloud_storage.pdf"
+        ]
+    },
+    {
+        "question": "According to the \"Context Text\", what is the concept of a \"pseudo folder structure\" in Amazon S3 primarily presented to the user as?",
+        "options": {
+            "A": "An actual hierarchical file system within the bucket.",
+            "B": "A method of associating objects with specific physical storage locations.",
+            "C": "A simulation achieved by using prefixes in object keys.",
+            "D": "A metadata layer separate from the objects themselves."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L3_virtualisation_EC2.pdf"
+        ]
+    },
+    {
+        "question": "Based on the provided \"Context Text\" regarding the S3 object concept, what are identified as \"special objects\" within Amazon S3?",
+        "options": {
+            "A": "Objects encrypted with server-side encryption.",
+            "B": "Objects stored in the S3 Glacier storage class.",
+            "C": "Folder objects (0 byte objects) and delete markers in versioned buckets.",
+            "D": "Objects that have been accessed less than once a month."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L3_virtualisation_EC2.pdf"
+        ]
+    },
+    {
+        "question": "What is the narrow and very common perception of virtualization in the cloud era, as described in the \"Context Text\"?",
+        "options": {
+            "A": "Providing developers with pre-configured software environments.",
+            "B": "Running multiple virtual machines on a single physical machine.",
+            "C": "Automating the deployment and management of infrastructure.",
+            "D": "Delivering software applications over the internet."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L3_virtualisation_EC2.pdf"
+        ]
+    },
+    {
+        "question": "The \"Context Text\" defines virtualization broadly based on common features. Which set of features is characteristic of this broader definition?",
+        "options": {
+            "A": "Resource pooling, rapid elasticity, and measured service.",
+            "B": "Emulation, transparency, and benefits compared to physical form.",
+            "C": "High availability, fault tolerance, and disaster recovery.",
+            "D": "Server consolidation, energy saving, and reduced hardware costs."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L3_virtualisation_EC2.pdf"
+        ]
+    },
+    {
+        "question": "According to the \"Context Text\", what is a primary responsibility of the hypervisor in a virtualized server environment?",
+        "options": {
+            "A": "To install and manage the applications running inside the VMs.",
+            "B": "To ensure each virtual machine receives allocated resources and does not interfere with others.",
+            "C": "To provide direct access for VMs to the underlying physical hardware.",
+            "D": "To perform backups and recovery operations for the VMs."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L3_virtualisation_EC2.pdf"
+        ]
+    },
+    {
+        "question": "Based on the \"Context Text\", how does the Kernel-based Virtual Machine (KVM) function within a Linux environment to provide virtualization?",
+        "options": {
+            "A": "KVM is a stand-alone operating system installed directly on the hardware.",
+            "B": "KVM uses containers to isolate applications within a single OS instance.",
+            "C": "KVM turns the Linux kernel into a hypervisor with the help of modules.",
+            "D": "KVM runs as a user-space application that interprets VM instructions."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L3_virtualisation_EC2.pdf"
+        ]
+    },
+    {
+        "question": "How is memory mapping for a Guest OS typically managed in a virtualized environment, according to the \"Context Text\"?",
+        "options": {
+            "A": "Through a single-level mapping directly from guest virtual to host physical addresses.",
+            "B": "The Guest OS is solely responsible for managing the mapping to physical memory.",
+            "C": "A two-level mapping or translation process is employed.",
+            "D": "Memory is shared directly between VMs without any mapping layers."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L3_virtualisation_EC2.pdf"
+        ]
+    },
+    {
+        "question": "When launching an Amazon EC2 instance, what does the \"Context Text\" indicate is the primary role of the Amazon Machine Image (AMI) selection?",
+        "options": {
+            "A": "To determine the performance characteristics of the instance, such as CPU and memory.",
+            "B": "To select the geographic region and Availability Zone for deployment.",
+            "C": "To provide the template containing the operating system and potentially pre-installed software.",
+            "D": "To configure the firewall rules that control traffic to the instance."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L3_virtualisation_EC2.pdf"
+        ]
+    },
+    {
+        "question": "According to the \"Context Text\" comparing Amazon EBS and EC2 Instance Store, what is the main difference regarding data persistence?",
+        "options": {
+            "A": "Data on EBS is temporary and lost when the instance stops, while data on Instance Store is persistent.",
+            "B": "Data on both EBS and Instance Store is always persistent regardless of instance state.",
+            "C": "Data on EBS is persistent and remains available after the instance stops, while data on Instance Store is temporary and lost when the instance stops.",
+            "D": "Data on both EBS and Instance Store is temporary and lost when the instance stops."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L3_virtualisation_EC2.pdf"
+        ]
+    },
+    {
+        "question": "Based on the \"Context Text\" describing the AWS Nitro System, which statement accurately reflects its architecture?",
+        "options": {
+            "A": "It relies on a monolithic hypervisor to manage all resources, including I/O.",
+            "B": "It uses dedicated Nitro cards for resource management like networking and storage, alongside a minimal hypervisor for CPU/memory.",
+            "C": "It uses a traditional Domain 0 virtual machine to handle I/O and management tasks.",
+            "D": "It eliminates the need for any hypervisor by running guest OS directly on hardware."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L3_virtualisation_EC2.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what is the default value for the `DeleteOnTermination` attribute for an Amazon EBS volume that is NOT the root volume when attached to an EC2 instance?",
+        "options": {
+            "A": "True",
+            "B": "False",
+            "C": "Varies by volume type",
+            "D": "User must always specify"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L4_Cloud_Database.pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, where are Amazon EBS volumes automatically replicated to enhance durability?",
+        "options": {
+            "A": "Across multiple AWS Regions",
+            "B": "Within its Availability Zone",
+            "C": "To Amazon S3",
+            "D": "To linked EC2 instance storage"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L4_Cloud_Database.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, how many Amazon EC2 instances can a single Amazon EBS volume be attached to at the same time?",
+        "options": {
+            "A": "Unlimited instances",
+            "B": "Only one instance",
+            "C": "Up to five instances",
+            "D": "Up to the number of instances in the same Availability Zone"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L4_Cloud_Database.pdf"
+        ]
+    },
+    {
+        "question": "Which Amazon EBS volume type, according to the Context Text's use case descriptions, is specifically recommended for throughput-oriented storage of large volumes of data that are infrequently accessed?",
+        "options": {
+            "A": "General Purpose SSD",
+            "B": "Provisioned IOPS SSD",
+            "C": "Throughput-Optimized HDD",
+            "D": "Cold HDD"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L4_Cloud_Database.pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text describing VPCs and subnets, within which AWS physical infrastructure component must a subnet entirely reside?",
+        "options": {
+            "A": "AWS Region",
+            "B": "Availability Zone",
+            "C": "Data Center",
+            "D": "Edge Location"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L4_Cloud_Database.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text's description of Security Groups, what is the default rule for inbound traffic for a new security group?",
+        "options": {
+            "A": "Allow all inbound traffic",
+            "B": "Deny all inbound traffic",
+            "C": "Allow inbound traffic from within the same security group",
+            "D": "Allow inbound traffic from the associated VPC CIDR"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L4_Cloud_Database.pdf"
+        ]
+    },
+    {
+        "question": "In the context of \"Running Databases in the cloud\", when hosting a database on an Amazon EC2 instance (Cloud Hosted), who is primarily responsible for performing OS patches according to the text?",
+        "options": {
+            "A": "AWS",
+            "B": "You (the user)",
+            "C": "A shared responsibility between AWS and the user",
+            "D": "The database engine vendor"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L4_Cloud_Database.pdf"
+        ]
+    },
+    {
+        "question": "According to the comparison in the Context Text, for which use case are Non-relational databases specifically recommended?",
+        "options": {
+            "A": "When migrating an on-premises relational workload",
+            "B": "When your workload involves online transactional processing",
+            "C": "When optimized for structured data stored in tables",
+            "D": "When a caching layer is needed to improve read performance"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L4_Cloud_Database.pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, what is the primary focus of an Amazon RDS Multi-AZ deployment?",
+        "options": {
+            "A": "Read scaling to improve performance for read-heavy workloads",
+            "B": "Providing high availability and durability against infrastructure failures",
+            "C": "Reducing storage costs by offloading data",
+            "D": "Enabling complex one-time queries through joins"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L4_Cloud_Database.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text's description of Amazon Aurora's durability at scale, how many acknowledgements out of 6 replicas are required for the Primary Instance to consider a write operation successful?",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "4",
+            "D": "6"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L4_Cloud_Database.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what is the relationship between a VPC and Availability Zones regarding the VPC's scope?",
+        "options": {
+            "A": "A VPC belongs to a single Availability Zone and cannot span multiple.",
+            "B": "A VPC can belong to multiple Regions but is restricted to a single Availability Zone within each Region.",
+            "C": "A VPC belongs to a single AWS Region and can span multiple Availability Zones within that Region.",
+            "D": "A VPC's scope is limited to a single data center within an Availability Zone."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L5_cloud_networking.pdf"
+        ]
+    },
+    {
+        "question": "When creating a VPC, an IPv4 CIDR block (range of private IPv4 addresses) must be assigned. What is the smallest allowed IPv4 CIDR block size for a VPC according to the Context Text?",
+        "options": {
+            "A": "/16",
+            "B": "/24",
+            "C": "/28",
+            "D": "/32"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L5_cloud_networking.pdf"
+        ]
+    },
+    {
+        "question": "Within a subnet's IPv4 CIDR block, a certain number of IP addresses are reserved by AWS and are unavailable for use by instances. According to the example provided, how many IP addresses are typically reserved in an IPv4 subnet?",
+        "options": {
+            "A": "2",
+            "B": "3",
+            "C": "5",
+            "D": "10"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L5_cloud_networking.pdf"
+        ]
+    },
+    {
+        "question": "What happens to an Elastic Network Interface's (ENI) attributes when it is detached from one instance and reattached to another instance in the same VPC?",
+        "options": {
+            "A": "Its attributes are reset and it is assigned a new set of default attributes.",
+            "B": "Only the private IP address associated with the ENI follows to the new instance.",
+            "C": "Its attributes follow when it is reattached to the new instance.",
+            "D": "ENIs are permanently attached to the instance they are created with and cannot be reattached."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L5_cloud_networking.pdf"
+        ]
+    },
+    {
+        "question": "When a VPC router evaluates routes in a route table to direct traffic, how does it determine which route to use if multiple routes match the destination IP address?",
+        "options": {
+            "A": "It uses the route with the lowest rule number.",
+            "B": "It randomly selects one of the matching routes.",
+            "C": "It prioritizes the route based on the most specific destination match.",
+            "D": "It prioritizes routes configured to use an Internet Gateway."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L5_cloud_networking.pdf"
+        ]
+    },
+    {
+        "question": "By default, every VPC comes with a \"main route table\" containing a local route that allows communication within the VPC. What is the typical target specified for this default local route?",
+        "options": {
+            "A": "Internet gateway ID",
+            "B": "NAT gateway ID",
+            "C": "local",
+            "D": "The VPC's own CIDR block"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L5_cloud_networking.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what is the primary function of a Public NAT Gateway?",
+        "options": {
+            "A": "It allows two-way communication between instances in a public subnet and the internet.",
+            "B": "It allows instances in private subnets to connect to other VPCs or on-premises networks.",
+            "C": "It allows instances in private subnets to connect to the Internet (outgoing only).",
+            "D": "It translates public IP addresses to private IP addresses for incoming connections to servers in public subnets."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L5_cloud_networking.pdf"
+        ]
+    },
+    {
+        "question": "Based on the recommended subnet selections for different use cases provided in the Context Text, which type of subnet is generally recommended for hosting database instances?",
+        "options": {
+            "A": "Public subnet",
+            "B": "Private subnet",
+            "C": "Either public or private, depending on configuration",
+            "D": "A dedicated management subnet"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L5_cloud_networking.pdf"
+        ]
+    },
+    {
+        "question": "A key difference between Security Groups and Network ACLs lies in their statefulness. According to the Context Text, how is statefulness described for these two security mechanisms?",
+        "options": {
+            "A": "Security Groups are stateless, while Network ACLs are stateful.",
+            "B": "Security Groups are stateful, while Network ACLs are stateless.",
+            "C": "Both Security Groups and Network ACLs are stateless.",
+            "D": "Both Security Groups and Network ACLs are stateful."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L5_cloud_networking.pdf"
+        ]
+    },
+    {
+        "question": "Which type of VPC Endpoint is described as being targeted at specific AWS services like Amazon S3 and DynamoDB and works by adding a route entry to a route table instead of using Elastic Network Interfaces?",
+        "options": {
+            "A": "Interface Endpoint",
+            "B": "Gateway Endpoint",
+            "C": "Service Endpoint",
+            "D": "PrivateLink Endpoint"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L5_cloud_networking.pdf"
+        ]
+    },
+    {
+        "question": "According to the AWS Shared Responsibility Model described in the Context Text, which of the following is a responsibility of AWS?",
+        "options": {
+            "A": "Configuration of applications",
+            "B": "Patching and maintenance of the EC2 instance operating system",
+            "C": "Physical security of data centers",
+            "D": "Management of passwords and role-based access for applications"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L6_cloud_security.pdf"
+        ]
+    },
+    {
+        "question": "Based on the AWS Shared Responsibility Model outlined in the Context Text, which of the following is primarily the customer's responsibility?",
+        "options": {
+            "A": "Intrusion detection for the AWS network infrastructure",
+            "B": "Management of the virtualization infrastructure",
+            "C": "Security group configuration",
+            "D": "Storage decommissioning"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L6_cloud_security.pdf"
+        ]
+    },
+    {
+        "question": "In the Activity: Scenario 1 provided in the Context Text, who is responsible for upgrades and patches to the operating system on an EC2 instance?",
+        "options": {
+            "A": "AWS",
+            "B": "The customer",
+            "C": "It is a shared responsibility",
+            "D": "The EC2 instance vendor"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L6_cloud_security.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text's review of IAM components, what is the primary function of an IAM group?",
+        "options": {
+            "A": "To provide temporary access credentials",
+            "B": "To define specific permissions for a single user",
+            "C": "A collection of IAM users granted identical authorization",
+            "D": "A mechanism for cross-account access"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L6_cloud_security.pdf"
+        ]
+    },
+    {
+        "question": "When an IAM user authenticates to the AWS Management Console, according to the Context Text, which combination of credentials is used?",
+        "options": {
+            "A": "Access key ID and secret access key",
+            "B": "IAM user name, IAM password, and potentially MFA code",
+            "C": "AWS CLI and AWS SDK access",
+            "D": "12-digit Account ID or alias and temporary security credentials"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L6_cloud_security.pdf"
+        ]
+    },
+    {
+        "question": "Based on the policy evaluation logic described in the Context Text, what is the outcome if an explicit deny statement applies to a request?",
+        "options": {
+            "A": "The request is allowed if there is also an explicit allow statement.",
+            "B": "The request is allowed by default unless an explicit deny is present.",
+            "C": "The request is denied, regardless of any explicit allow statements.",
+            "D": "The request is allowed if the principal has sufficient permissions elsewhere."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L6_cloud_security.pdf"
+        ]
+    },
+    {
+        "question": "In the structure of an IAM policy document formatted in JSON, as described in the Context Text, what element is used to list the specific API operations that are allowed or denied?",
+        "options": {
+            "A": "Version",
+            "B": "Statement",
+            "C": "Effect",
+            "D": "Action"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L6_cloud_security.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, how does Attribute Based Access Control (ABAC) primarily define permissions?",
+        "options": {
+            "A": "By listing individual resources to be accessed in the policy.",
+            "B": "Based on tags applied to IAM resources (users or roles) and AWS resources.",
+            "C": "By assigning users to predefined roles with fixed permissions.",
+            "D": "Based on the time of day the request is made."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L6_cloud_security.pdf"
+        ]
+    },
+    {
+        "question": "What is Identity Federation defined as in the Context Text?",
+        "options": {
+            "A": "A system for centralizing user management across multiple applications.",
+            "B": "The process of verifying a user's identity using a username and password.",
+            "C": "A system of trust between two parties to authenticate users and convey information that\u2019s needed to authorize access to resources.",
+            "D": "Using multi-factor authentication for user logins."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L6_cloud_security.pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, what is the primary purpose of the AWS Security Token Service (AWS STS)?",
+        "options": {
+            "A": "To manage permanent IAM user credentials.",
+            "B": "To provide authentication for web and mobile applications.",
+            "C": "To request temporary, limited-privilege credentials.",
+            "D": "To create a directory with user profiles and authentication tokens."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L6_cloud_security.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, all federated users in AWS Academy assume which specific IAM role?",
+        "options": {
+            "A": "admin",
+            "B": "student",
+            "C": "voclabs",
+            "D": "poweruser"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L7_elasticity.pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, what is the primary purpose of using a Policy parameter when programmatically creating a temporary session for a role or federated user via AssumeRole?",
+        "options": {
+            "A": "To define the RoleArn and RoleSessionName.",
+            "B": "To specify the required SessionToken and SecretAccessKey.",
+            "C": "To limit the permissions of the session.",
+            "D": "To generate a federated user sign-in URL."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L7_elasticity.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, when you click the \"End Lab\" button in AWS Academy, what happens to the resources created during the lab?",
+        "options": {
+            "A": "They are automatically cleared.",
+            "B": "They are left running but permissions are revoked.",
+            "C": "They are snapshotted and saved for the next session.",
+            "D": "They are converted to a CloudFormation template."
+        },
+        "correct_answer": "A",
+        "source_pdfs": [
+            "L7_elasticity.pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, if your AWS session expires while your AWS Academy lab session is still valid, what is the likely outcome regarding accessing the console?",
+        "options": {
+            "A": "You completely lose access and must end the lab session.",
+            "B": "You can launch the console again and potentially resume your work.",
+            "C": "All your lab resources are automatically terminated.",
+            "D": "Your temporary credentials become permanently invalid."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L7_elasticity.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what is the core action when you click \"Start Lab\" again during an existing lab session?",
+        "options": {
+            "A": "It automatically refreshes your temporary STS tokens.",
+            "B": "It terminates all existing lab resources and starts new ones.",
+            "C": "It resets the timer of the current lab session.",
+            "D": "It changes your assumed role and session information."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L7_elasticity.pdf"
+        ]
+    },
+    {
+        "question": "In the context of cloud computing as described in the text, what does elasticity primarily support?",
+        "options": {
+            "A": "Only capacity expansion.",
+            "B": "Fine-grained capacity expansion and contraction.",
+            "C": "Handling a growing amount of work by adding resources manually.",
+            "D": "The ability to run multiple operating systems on one physical machine."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L7_elasticity.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what does Amazon EC2 Auto Scaling primarily manage?",
+        "options": {
+            "A": "Individual EC2 instances.",
+            "B": "A logical collection of EC2 instances called an Auto Scaling group.",
+            "C": "Elastic Load Balancers and Route 53 records.",
+            "D": "CloudWatch alarms and metrics."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L7_elasticity.pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, which Amazon EC2 Auto Scaling group component contains configuration information needed to launch an EC2 instance, such as the AMI ID and instance type?",
+        "options": {
+            "A": "Scaling Policy",
+            "B": "Target Group",
+            "C": "Launch Template",
+            "D": "Capacity Configuration"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L7_elasticity.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what does a Listener within an Elastic Load Balancer (specifically an ALB) define?",
+        "options": {
+            "A": "The logical grouping of AWS resources as targets for traffic.",
+            "B": "The port and protocol which the load balancer must listen on.",
+            "C": "The algorithm used to distribute traffic among targets.",
+            "D": "The minimum and maximum number of instances allowed."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L7_elasticity.pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, which Application Load Balancer (ALB) algorithm selects the target with the lowest number of requests waiting for responses?",
+        "options": {
+            "A": "Round-robin algorithm",
+            "B": "Least Outstanding Request algorithm",
+            "C": "Static Threshold algorithm",
+            "D": "Predictive Scaling algorithm"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L7_elasticity.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, which of the following is listed as one of the four options for end user interfaces to interact with the AWS API?",
+        "options": {
+            "A": "API Gateway",
+            "B": "Infrastructure Composer",
+            "C": "Blueprints",
+            "D": "Lambda Function"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L8_CloudFormation (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, which of the following is a stated risk associated with managing cloud infrastructure through manual processes?",
+        "options": {
+            "A": "Reduced security due to automated updates",
+            "B": "Increased cost of resource provisioning",
+            "C": "Inconsistent data management",
+            "D": "Faster deployment times for complex environments"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L8_CloudFormation (1).pdf"
+        ]
+    },
+    {
+        "question": "How does an AWS CLI request primarily authenticate the user according to the Context Text?",
+        "options": {
+            "A": "By username and password",
+            "B": "Using temporary session tokens",
+            "C": "Through a certificate-based system",
+            "D": "By access key ID and secret access key"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L8_CloudFormation (1).pdf"
+        ]
+    },
+    {
+        "question": "What is Infrastructure as Code (IaC) primarily defined as in the Context Text?",
+        "options": {
+            "A": "A programming language for cloud applications",
+            "B": "A visual interface for resource management",
+            "C": "The process of manually configuring resources",
+            "D": "The process of writing a template to provision and manage cloud resources"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L8_CloudFormation (1).pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is listed as one of the *key* benefits of using Infrastructure as Code (IaC)?",
+        "options": {
+            "A": "Increased manual configuration effort",
+            "B": "Version control limitation",
+            "C": "Maintainability",
+            "D": "Slow deployment speed"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L8_CloudFormation (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, which section is the *only* required section in a CloudFormation template?",
+        "options": {
+            "A": "Parameters",
+            "B": "Resources",
+            "C": "Outputs",
+            "D": "Description"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L8_CloudFormation (1).pdf"
+        ]
+    },
+    {
+        "question": "What is the primary purpose of the Parameters section in a CloudFormation template, as described in the Context Text?",
+        "options": {
+            "A": "To define the resources to be created",
+            "B": "To declare output values for the stack",
+            "C": "To specify property values of stack resources for customization",
+            "D": "To include comments and metadata about the template"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L8_CloudFormation (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what is the basic AWS CLI command used to create a CloudFormation stack from a local template file?",
+        "options": {
+            "A": "`aws cloudformation delete-stack`",
+            "B": "`aws cloudformation update-stack`",
+            "C": "`aws cloudformation create-stack`",
+            "D": "`aws ec2 run-instances`"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L8_CloudFormation (1).pdf"
+        ]
+    },
+    {
+        "question": "When creating a CloudFormation stack via the AWS CLI, which command parameter is used to supply values for defined parameters in the template?",
+        "options": {
+            "A": "`--template-body`",
+            "B": "`--stack-name`",
+            "C": "`--outputs`",
+            "D": "`--parameters`"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L8_CloudFormation (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what is the primary purpose of the `DependsOn` attribute in a CloudFormation template resource definition?",
+        "options": {
+            "A": "To define output values for the resource",
+            "B": "To specify property values for the resource",
+            "C": "To specify the creation order of resources",
+            "D": "To link the resource to an intrinsic function"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L8_CloudFormation (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what is the ultimate goal of adopting DevOps practices?",
+        "options": {
+            "A": "To increase the number of manual processes in software delivery",
+            "B": "To enable faster and more reliable software delivery",
+            "C": "To eliminate the need for IT operations teams",
+            "D": "To reduce the use of version control systems"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, what is the primary distinction between Continuous Delivery and Continuous Deployment?",
+        "options": {
+            "A": "Continuous Delivery automatically deploys to production, while Continuous Deployment requires manual approval for production deployment.",
+            "B": "Continuous Delivery includes automatically releasing software to a repository, while Continuous Deployment further adds automatically deploying software to production.",
+            "C": "Continuous Delivery focuses only on building and testing code, while Continuous Deployment handles everything after testing.",
+            "D": "Continuous Delivery is used for monolithic applications, while Continuous Deployment is exclusive to microservices."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the comparison table provided in the Context Text, what is the fundamental difference in the delivery mechanism between Amazon SQS and Amazon SNS?",
+        "options": {
+            "A": "Amazon SQS uses a Push mechanism, while Amazon SNS uses a Pull mechanism.",
+            "B": "Amazon SQS uses a synchronous mechanism, while Amazon SNS uses an asynchronous mechanism.",
+            "C": "Amazon SQS uses a Pull mechanism (active), while Amazon SNS uses a Push mechanism (passive).",
+            "D": "Amazon SQS uses a message bus, while Amazon SNS uses a topic."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "In the Amazon SQS message lifecycle as described in the Context Text, when does the visibility timeout for a message begin?",
+        "options": {
+            "A": "When the message is initially sent to the queue by the producer.",
+            "B": "When the message is successfully deleted from the queue by a consumer.",
+            "C": "When the consumer application starts processing the message.",
+            "D": "When a consumer picks up the message from the queue for processing."
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, which of the following is a key characteristic that primarily differentiates an Amazon SQS FIFO queue from a Standard queue?",
+        "options": {
+            "A": "The maximum size of a message.",
+            "B": "The ability to associate a Dead-Letter Queue.",
+            "C": "Guaranteed FIFO delivery and exactly-once processing.",
+            "D": "The total throughput capacity."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what are identified as the three pillars of observability in DevOps best practice?",
+        "options": {
+            "A": "Automation, Monitoring, and Feedback",
+            "B": "Logs, Traces, and Metrics",
+            "C": "Build, Test, and Deploy",
+            "D": "CI, CD, and CD"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text's listing of DevOps tools, under which category is AWS Lambda primarily listed?",
+        "options": {
+            "A": "CI/CD",
+            "B": "Microservices",
+            "C": "Platform as a Service",
+            "D": "Monitoring and logging"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what is the minimum number of stages a simple AWS CodePipeline may contain?",
+        "options": {
+            "A": "One",
+            "B": "Two",
+            "C": "Three",
+            "D": "Four"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, what does a Stage in an AWS CodePipeline primarily represent?",
+        "options": {
+            "A": "A specific AWS service used in the pipeline",
+            "B": "A workflow construct defining the entire release process",
+            "C": "A metric used for monitoring the pipeline's performance",
+            "D": "A logic unit representing a relatively independent step where actions are performed on an artifact"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, which type of event is mentioned as an example that can be configured to automatically start an AWS CodePipeline execution?",
+        "options": {
+            "A": "An alarm threshold being breached",
+            "B": "A manual user command only",
+            "C": "A commit event",
+            "D": "A successful deployment rollback"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text's description of tight coupling in a three-tier architecture, what is highlighted as a challenge when scaling out?",
+        "options": {
+            "A": "Reduced performance due to increased network latency",
+            "B": "The need for updates to code for multiple new server connections",
+            "C": "Difficulty in monitoring system health",
+            "D": "Increased cost of database connections"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text's illustration of tight coupling within a monolithic application, what is presented as a significant challenge?",
+        "options": {
+            "A": "Difficulty in implementing new features",
+            "B": "The failure of a single function potentially bringing down the entire application",
+            "C": "Limited scalability for individual components",
+            "D": "Increased deployment complexity"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, what is the purpose of associating a Dead-Letter Queue (DLQ) with an Amazon SQS queue?",
+        "options": {
+            "A": "To store messages before they are processed by consumers",
+            "B": "To serve as a backup of all successfully processed messages",
+            "C": "To store messages that cannot be consumed successfully",
+            "D": "To handle messages that exceed the maximum size limit"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, which AWS messaging service is listed as a valid endpoint type for an Amazon SNS topic subscriber?",
+        "options": {
+            "A": "Amazon Kinesis Data Streams",
+            "B": "AWS AppSync",
+            "C": "Amazon SQS queue",
+            "D": "AWS Step Functions"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the comparison table in the Context Text, what is the difference in message persistence between Amazon SNS and Amazon SQS?",
+        "options": {
+            "A": "SNS provides message persistence, while SQS does not.",
+            "B": "Both SNS and SQS provide message persistence.",
+            "C": "SNS does not provide message persistence, while SQS does.",
+            "D": "Message persistence is configurable for both, but the default differs."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, operating-system-level virtualization is also known by what other term?",
+        "options": {
+            "A": "Hardware emulation",
+            "B": "Hypervisor technology",
+            "C": "Containerization",
+            "D": "Full system virtualization"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L10_Container (1).pdf",
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, which Linux kernel feature is utilized to provide containers with their own isolated view of system resources, such as a unique root directory or set of process IDs?",
+        "options": {
+            "A": "Cgroups",
+            "B": "Namespace",
+            "C": "System Calls",
+            "D": "Device Drivers"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L10_Container (1).pdf",
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what is the primary purpose of the Linux kernel feature known as Control Groups (cgroups) in the context of containers?",
+        "options": {
+            "A": "To manage file system mounts for each container",
+            "B": "To create independent process ID spaces",
+            "C": "To control kernel resources allocated to each container/process",
+            "D": "To provide isolated user ID spaces"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L10_Container (1).pdf",
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "The Context Text describes a container runtime as having similar responsibilities to what language-specific environment support system?",
+        "options": {
+            "A": "JVM (Java Virtual Machine)",
+            "B": "JRE (Java Runtime Environment)",
+            "C": ".NET Framework",
+            "D": "Python Interpreter"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L10_Container (1).pdf",
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "In Docker, what is the text document called that contains a sequence of instructions or commands used to build a Docker image?",
+        "options": {
+            "A": "Docker Manifest",
+            "B": "Docker Compose file",
+            "C": "Dockerfile",
+            "D": "Docker Script"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L10_Container (1).pdf",
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "When a Docker image is loaded into a container to run, what type of layer is added on top of the read-only image layers, and where are all writes to the container stored?",
+        "options": {
+            "A": "An ephemeral layer; stored in the host's root file system",
+            "B": "A persistent layer; stored in a Docker volume",
+            "C": "A thin writable layer; stored in this new layer",
+            "D": "A shared layer; stored in the base image"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L10_Container (1).pdf",
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, if no network driver is specified when starting a Docker container, which driver is used by default?",
+        "options": {
+            "A": "Host driver",
+            "B": "None driver",
+            "C": "Overlay driver",
+            "D": "Bridge driver"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L10_Container (1).pdf",
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, what is a common mechanism used for communication between microservices, specifically mentioning stable interfaces?",
+        "options": {
+            "A": "Direct database connections",
+            "B": "Shared memory segments",
+            "C": "RESTful API over HTTP",
+            "D": "Message queues exclusively"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L10_Container (1).pdf",
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text's overview of AWS container services, what is the name of the fully managed Docker container registry service?",
+        "options": {
+            "A": "Amazon ECS",
+            "B": "Amazon EKS",
+            "C": "Amazon ECR",
+            "D": "AWS Fargate"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L10_Container (1).pdf",
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text's discussion of container and microservices architecture, what type of service is needed for a distributed application that consists of multiple containers running together?",
+        "options": {
+            "A": "A load balancing service",
+            "B": "An orchestrating service",
+            "C": "A database service",
+            "D": "A continuous integration service"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L10_Container (1).pdf",
+            "L9_CodePipeline_da (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the seminal paper \u201cThe Berkeley View on Cloud Computing\u201d mentioned in the text, which computing model is stated to have \"won the first battle\" in the cloud market?",
+        "options": {
+            "A": "Function as a Service (FaaS)",
+            "B": "Platform as a Service (PaaS)",
+            "C": "Infrastructure as a Service (IaaS)",
+            "D": "Software as a Service (SaaS)"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L11_Serverless_computing (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, serverless computing originated as a design pattern primarily for handling which type of workload?",
+        "options": {
+            "A": "High-throughput, continuous processing tasks",
+            "B": "CPU-intensive computational simulations",
+            "C": "Low duty-cycle workloads",
+            "D": "Applications requiring persistent, local storage"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L11_Serverless_computing (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, in what year did Amazon release the \"AWS Lambda\" service?",
+        "options": {
+            "A": "2009",
+            "B": "2013",
+            "C": "2015",
+            "D": "2018"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L11_Serverless_computing (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, how is a user primarily charged for using the AWS Lambda service?",
+        "options": {
+            "A": "Based on the allocated server capacity",
+            "B": "Based on the actual execution time",
+            "C": "Based on the amount of data processed",
+            "D": "Based on the number of function invocations regardless of duration"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L11_Serverless_computing (1).pdf"
+        ]
+    },
+    {
+        "question": "In the Basic Concepts section, the Context Text describes an \"Event\" as a document passed to a Lambda function for processing. What format is this document typically in?",
+        "options": {
+            "A": "XML",
+            "B": "Binary",
+            "C": "Plain Text",
+            "D": "JSON"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L11_Serverless_computing (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text describing the Lambda Execution Environment, how were functions from *different* user accounts isolated in the early version of AWS Lambda?",
+        "options": {
+            "A": "They ran on the same VM but in different containers.",
+            "B": "They always ran on different VMs.",
+            "C": "They ran in the same container on the same VM.",
+            "D": "They ran on separate physical hardware."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L11_Serverless_computing (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the comparison table and description in the Context Text, what is the primary use case identified for MicroVMs?",
+        "options": {
+            "A": "Microservices application deployments everywhere",
+            "B": "General purpose computing",
+            "C": "Serverless computing",
+            "D": "Batch processing of large datasets"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L11_Serverless_computing (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what is a key limitation of the default Lambda function network configuration (running in a Lambda-managed VPC) regarding accessing user resources?",
+        "options": {
+            "A": "It cannot access the public internet.",
+            "B": "It cannot access other outside VPC services like S3.",
+            "C": "It cannot access resources on the user's own VPC, such as RDS.",
+            "D": "It cannot utilize VPC endpoints."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L11_Serverless_computing (1).pdf"
+        ]
+    },
+    {
+        "question": "The Context Text warns against recursive patterns that cause run-away Lambda functions. Which specific example is given involving an S3 bucket?",
+        "options": {
+            "A": "A Lambda triggered by S3 upload that processes the object and then deletes it from the same bucket.",
+            "B": "A Lambda triggered by S3 upload that puts an object back into the *same* bucket.",
+            "C": "A Lambda triggered by S3 upload that copies the object to a different S3 bucket.",
+            "D": "A Lambda triggered by S3 upload that generates a signed URL for the object in the same bucket."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L11_Serverless_computing (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what is the primary function of Amazon API Gateway?",
+        "options": {
+            "A": "To provide a managed message queue service between decoupled components.",
+            "B": "To run containerized applications at scale.",
+            "C": "To create, publish, maintain, monitor, and secure APIs that act as entry points to backend resources.",
+            "D": "To manage database connections for serverless applications."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L11_Serverless_computing (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, which set of roles represents the three key components of an event-driven architecture?",
+        "options": {
+            "A": "Source, Target, Mediator",
+            "B": "Publisher, Router, Consumer",
+            "C": "Producer, Queue, Worker",
+            "D": "Initiator, Broker, Listener"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L12_Kubernetes (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what was the internal container-oriented cluster management system at Google that served as the predecessor to Kubernetes?",
+        "options": {
+            "A": "Omega (and Alpha)",
+            "B": "Lambda (and Fargate)",
+            "C": "Borg (and Omega)",
+            "D": "Docker Swarm"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L12_Kubernetes (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text, which of the following is *not* listed as a component of the Kubernetes Master Node (control plane)?",
+        "options": {
+            "A": "The Scheduler",
+            "B": "The Kubelet",
+            "C": "The API Server",
+            "D": "etcd"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L12_Kubernetes (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, which component runs on a Kubernetes Worker Node and is responsible for talking to the API server and managing containers on its specific node?",
+        "options": {
+            "A": "Kube-proxy",
+            "B": "etcd",
+            "C": "Kubelet",
+            "D": "Controller Manager"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L12_Kubernetes (1).pdf"
+        ]
+    },
+    {
+        "question": "As defined in the Context Text, what is considered the unit of scheduling in Kubernetes, serving as a resource envelope in which one or more containers run and are guaranteed to be scheduled together?",
+        "options": {
+            "A": "A Deployment",
+            "B": "A Service",
+            "C": "A Pod",
+            "D": "A Node"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L12_Kubernetes (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what key operating system feature is shared by all containers within the same Kubernetes Pod, giving them partial isolation from containers in other pods?",
+        "options": {
+            "A": "Dedicated file system mount points",
+            "B": "Individual CPU core allocation",
+            "C": "The same OS namespace",
+            "D": "A unique IP address per container"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L12_Kubernetes (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the Context Text's description of Kubernetes object manifest files, which of the following is *not* listed as a required field?",
+        "options": {
+            "A": "apiVersion",
+            "B": "spec",
+            "C": "status",
+            "D": "kind"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L12_Kubernetes (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what is the difference between Kubernetes Labels and Annotations regarding their usage?",
+        "options": {
+            "A": "Labels are used for networking configuration, while Annotations are used for storage.",
+            "B": "Labels hold identifying information, while Annotations are used for different purposes like providing descriptions.",
+            "C": "Labels are mutable, while Annotations are immutable.",
+            "D": "Labels are applied to Nodes, while Annotations are applied to Pods."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L12_Kubernetes (1).pdf"
+        ]
+    },
+    {
+        "question": "Based on the example deployment manifest in the Context Text, how does a Kubernetes Deployment identify which pods belong to it and should be managed?",
+        "options": {
+            "A": "By referencing the pod's unique UID",
+            "B": "By listing specific pod names",
+            "C": "Using `selector: matchLabels` in the deployment spec",
+            "D": "By specifying the pod's creation timestamp"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L12_Kubernetes (1).pdf"
+        ]
+    },
+    {
+        "question": "According to the example service manifest provided, how does a Kubernetes Service determine which group of pods it will expose?",
+        "options": {
+            "A": "By matching the pod's name to the service name",
+            "B": "Using the `selector` property in the service spec",
+            "C": "By checking if pods are running on the same node",
+            "D": "By listening on the specific `targetPort` of the pods"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L12_Kubernetes (1).pdf"
+        ]
+    }
+]

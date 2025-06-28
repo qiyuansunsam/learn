@@ -1,0 +1,1442 @@
+[
+    {
+        "question": "According to the text, the small-world phenomenon is also known by which term?",
+        "options": {
+            "A": "Strong triadic closure",
+            "B": "Structural holes",
+            "C": "Six degree of separation",
+            "D": "Embeddedness"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "02a_graph_ties_handout.pdf",
+            "02b_structural_balance_handout.pdf"
+        ]
+    },
+    {
+        "question": "In Stanley Milgram's 1960s experiment testing the small-world phenomenon, what was the task given to the randomly chosen \"starter\" individuals?",
+        "options": {
+            "A": "To identify their closest friends and enemies.",
+            "B": "To forward a letter to a designated target person through acquaintances.",
+            "C": "To map out their complete personal social network.",
+            "D": "To estimate the number of people in the global friendship network."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "02a_graph_ties_handout.pdf",
+            "02b_structural_balance_handout.pdf"
+        ]
+    },
+    {
+        "question": "Based on the Microsoft Instant Messaging study mentioned in the text, what were the approximate average and median distances found within the giant component?",
+        "options": {
+            "A": "Average 2.5 and median 3",
+            "B": "Average 6.6 and median 7",
+            "C": "Average 10.1 and median 11",
+            "D": "Average 0.5 and median 1"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "02a_graph_ties_handout.pdf",
+            "02b_structural_balance_handout.pdf"
+        ]
+    },
+    {
+        "question": "Mark Granovetter's study on how people discovered new jobs in the 1960s found that people were more likely to hear about jobs from which type of contact?",
+        "options": {
+            "A": "Close friends",
+            "B": "Family members",
+            "C": "Acquaintances",
+            "D": "Colleagues within the same company"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "02a_graph_ties_handout.pdf",
+            "02b_structural_balance_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what defines an edge (A,B) as a local bridge?",
+        "options": {
+            "A": "Its removal would place A and B in distinct connected components.",
+            "B": "Its endpoints A and B have no friends in common.",
+            "C": "It is the only path connecting A and B.",
+            "D": "It has a span of exactly 2."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "02a_graph_ties_handout.pdf",
+            "02b_structural_balance_handout.pdf"
+        ]
+    },
+    {
+        "question": "The claim presented in the text regarding the Strong Triadic Closure Property states that if a node A satisfies this property and is involved in at least two strong ties, then any local bridge it is involved in must be what?",
+        "options": {
+            "A": "An edge with significant embeddedness.",
+            "B": "A strong tie.",
+            "C": "Part of a structural hole.",
+            "D": "A weak tie."
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "02a_graph_ties_handout.pdf",
+            "02b_structural_balance_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the empirical validation study using a cell phone provider's network, how was 'tie strength' generalized to a numerical quantity?",
+        "options": {
+            "A": "By the number of mutual friends.",
+            "B": "By whether the edge was a local bridge.",
+            "C": "By the total number of minutes spent on the phone between the two endpoints.",
+            "D": "By the frequency of text messages exchanged."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "02a_graph_ties_handout.pdf",
+            "02b_structural_balance_handout.pdf"
+        ]
+    },
+    {
+        "question": "What does the text describe as a \"structural hole\" in a network?",
+        "options": {
+            "A": "A node with no connections to other nodes.",
+            "B": "A tightly-knit group of nodes with high embeddedness.",
+            "C": "The empty space between sets of nodes that do not otherwise interact closely.",
+            "D": "An edge whose removal disconnects the network."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "02a_graph_ties_handout.pdf",
+            "02b_structural_balance_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the context of structural balance theory for three connected persons (A, B, C), which scenario is considered 'balanced'?",
+        "options": {
+            "A": "A is friends with B and C, but B and C are enemies.",
+            "B": "A, B, and C are mutual enemies.",
+            "C": "A and B are friends, A and C are friends, but B and C are enemies.",
+            "D": "A and B are friends, A and C are enemies, and B and C are enemies."
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "02a_graph_ties_handout.pdf",
+            "02b_structural_balance_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the Balance Theorem generalized to incomplete signed graphs, a signed graph is balanced if and only if it contains no cycle with which characteristic?",
+        "options": {
+            "A": "An even number of negative edges.",
+            "B": "An odd number of negative edges.",
+            "C": "No negative edges at all.",
+            "D": "Only negative edges."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "02a_graph_ties_handout.pdf",
+            "02b_structural_balance_handout.pdf"
+        ]
+    },
+    {
+        "question": "What is a key focus of studying networks in their surrounding contexts, as introduced in the text?",
+        "options": {
+            "A": "How network nodes change their individual attributes.",
+            "B": "How factors outside the nodes and edges affect network structure evolution.",
+            "C": "How the size of the network increases over time.",
+            "D": "How node degree distribution is calculated."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "03b_evolution_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, which statement best describes homophily in social networks?",
+        "options": {
+            "A": "People tend to form friendships randomly regardless of similarities.",
+            "B": "Friends are generally similar to each other in terms of ethnicity, age, and mutable characteristics.",
+            "C": "Social networks are typically divided into weakly connected heterogeneous parts.",
+            "D": "Homophily is solely an artifact of how a network is visually represented."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "03b_evolution_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the context of measuring homophily by gender, what would suggest evidence *for* homophily based on the provided metric involving probabilities p and q?",
+        "options": {
+            "A": "The fraction of inter-gender edges is significantly more than 2pq.",
+            "B": "The fraction of inter-gender edges is exactly equal to p^2 + q^2.",
+            "C": "The fraction of inter-gender edges is significantly less than 2pq.",
+            "D": "The total number of edges equals p^2 + q^2 + 2pq."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "03b_evolution_handout.pdf"
+        ]
+    },
+    {
+        "question": "The text describes two mechanisms underlying homophily. Which mechanism involves people changing their characteristics or behavior to align with their existing friends?",
+        "options": {
+            "A": "Selection",
+            "B": "Adaptation",
+            "C": "Social Influence",
+            "D": "Random Drift"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "03b_evolution_handout.pdf"
+        ]
+    },
+    {
+        "question": "What term is used in the text to describe focal points of social interactions, such as workplaces, voluntary organizations, or hangouts, around which joint activities are organized?",
+        "options": {
+            "A": "Nodes",
+            "B": "Edges",
+            "C": "Foci",
+            "D": "Communities"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "03b_evolution_handout.pdf"
+        ]
+    },
+    {
+        "question": "The text provides examples of different closure processes for edge creation in a social-affiliation network. Which type of closure is exemplified by \"Bob introduces Anna to Claire\" if Anna and Bob are friends, and Bob and Claire are friends, leading to Anna and Claire potentially becoming friends?",
+        "options": {
+            "A": "Focal closure",
+            "B": "Membership closure",
+            "C": "Random closure",
+            "D": "Triadic closure"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "03b_evolution_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the triadic closure principle, why is there an increased probability that two people in a social network will become friends if they have a friend in common?",
+        "options": {
+            "A": "The common friend actively forces them to become friends.",
+            "B": "They are guaranteed to have identical interests.",
+            "C": "Having a common friend provides opportunity to meet, a basis for trust, and avoids potential stress on existing relationships.",
+            "D": "It always decreases the clustering coefficient of the common friend."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "03b_evolution_handout.pdf"
+        ]
+    },
+    {
+        "question": "To empirically evaluate triadic closure in a dynamic network, the text describes a method that involves comparing pairs of nodes across two snapshots in time. What is T(k) defined as in this method?",
+        "options": {
+            "A": "The total number of pairs with exactly k common friends in the first snapshot.",
+            "B": "The fraction of pairs that had an edge in the first snapshot and still have it in the second.",
+            "C": "The fraction of pairs with exactly k common friends in the first snapshot (but no direct edge) that have formed an edge by the time of the second snapshot.",
+            "D": "The average clustering coefficient of nodes with degree k."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "03b_evolution_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the Wikipedia social-affiliation network example, what constitutes the affiliation between an editor and a focus?",
+        "options": {
+            "A": "The editor has written on the talk page of another editor associated with the focus.",
+            "B": "The editor has created the focus (article).",
+            "C": "The editor has edited the corresponding article.",
+            "D": "The editor is friends with another editor who edited the article."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "03b_evolution_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the Schelling Model of Segregation described in the text, what causes an agent to move to another cell?",
+        "options": {
+            "A": "The agent's type (O or X) changes randomly.",
+            "B": "The agent has more than a certain threshold 't' of similar neighbors.",
+            "C": "The agent has less than a certain threshold 't' of similar neighbors.",
+            "D": "The agent reaches the edge of the grid."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "03b_evolution_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the context text, how are tightly-knit groups in social networks often regarded?",
+        "options": {
+            "A": "Central nodes",
+            "B": "Isolated clusters",
+            "C": "Communities",
+            "D": "Weak ties"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "04_community_handout.pdf"
+        ]
+    },
+    {
+        "question": "What characteristic primarily defines a community structure in a network, according to the provided text?",
+        "options": {
+            "A": "Nodes connected by only weak ties to outside nodes",
+            "B": "A cohesive group of nodes more densely connected to each other than to nodes outside",
+            "C": "A partition where inter-group edges are dense and intra-group edges are sparse",
+            "D": "Nodes with similar degree distributions"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "04_community_handout.pdf"
+        ]
+    },
+    {
+        "question": "The text mentions that communities play an important role in understanding diseases. What specific example is given?",
+        "options": {
+            "A": "Diseases spread only within communities",
+            "B": "Proteins involved in the same disease tend to interact with each other",
+            "C": "Community detection can predict disease outbreaks",
+            "D": "Individuals living in the same neighborhood are more likely to get the same disease"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "04_community_handout.pdf"
+        ]
+    },
+    {
+        "question": "What are the two general ways, categorized as hierarchical clustering methods, to identify communities in a network mentioned in the text?",
+        "options": {
+            "A": "Node-centric and edge-centric methods",
+            "B": "Modularity optimization and likelihood maximization",
+            "C": "Divisive and Agglomerative methods",
+            "D": "Centrality-based and density-based methods"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "04_community_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what measure is useful for selecting the number of clusters when using hierarchical clustering?",
+        "options": {
+            "A": "Edge Betweenness",
+            "B": "Degree Centrality",
+            "C": "Modularity",
+            "D": "Topological overlap similarity"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "04_community_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the context of Modularity (Q), what does a positive value indicate?",
+        "options": {
+            "A": "The number of edges within groups is less than the expected number",
+            "B": "The network is optimally partitioned",
+            "C": "The number of edges within groups exceeds the expected number",
+            "D": "The network has no community structure"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "04_community_handout.pdf"
+        ]
+    },
+    {
+        "question": "What concept is defined as the total amount of flow an edge carries, based on the shortest paths between all pairs of nodes?",
+        "options": {
+            "A": "Node Betweenness",
+            "B": "Edge Density",
+            "C": "Edge Centrality",
+            "D": "Edge Betweenness"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "04_community_handout.pdf"
+        ]
+    },
+    {
+        "question": "The Girvan-Newman method for community detection involves iteratively removing edges. Which edges are prioritized for removal?",
+        "options": {
+            "A": "Edges with the lowest degree",
+            "B": "Edges with the highest betweenness",
+            "C": "Edges within dense clusters",
+            "D": "Edges connecting nodes with high similarity"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "04_community_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is the primary basis for defining the similarity matrix in Phase 1 of the Ravasz algorithm?",
+        "options": {
+            "A": "Node degrees and total network edges",
+            "B": "Shortest path distances between node pairs",
+            "C": "Direct connection and the number of shared neighbors between node pairs",
+            "D": "Modularity contribution of node pairs"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "04_community_handout.pdf"
+        ]
+    },
+    {
+        "question": "What method is mentioned in the text for detecting overlapping communities?",
+        "options": {
+            "A": "Modularity Optimization",
+            "B": "Girvan-Newman",
+            "C": "Ravasz Algorithm",
+            "D": "Clique Percolation"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "04_community_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, which characteristic primarily distinguishes information networks from social networks?",
+        "options": {
+            "A": "The total number of nodes in the network.",
+            "B": "The speed at which information travels across links.",
+            "C": "The basic units being connected.",
+            "D": "Whether the network structure is directed or undirected."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "05_web_hubs_authorities_handout.pdf"
+        ]
+    },
+    {
+        "question": "Who created the World Wide Web and during what period, according to the text?",
+        "options": {
+            "A": "Lijun Chang, 2025",
+            "B": "Tim Berners-Lee, 1989-1991",
+            "C": "A. Broder et al., 1999",
+            "D": "Google team, early 2000s"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "05_web_hubs_authorities_handout.pdf"
+        ]
+    },
+    {
+        "question": "Based on the text, what are the two main components that the World Wide Web application features?",
+        "options": {
+            "A": "Hypertext links and directed edges.",
+            "B": "Social entities and economic interactions.",
+            "C": "Document availability via pages on public folders and access via browsers.",
+            "D": "Adjacency matrices and eigenvector calculations."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "05_web_hubs_authorities_handout.pdf"
+        ]
+    },
+    {
+        "question": "How do links in citation networks differ from links in the World Wide Web, according to the text?",
+        "options": {
+            "A": "Citation links are undirected, while Web links are directed.",
+            "B": "Citation links tend to point strictly backward in time, while Web links do not necessarily follow a strict time direction.",
+            "C": "Citation networks are undirected graphs, while the Web is a directed graph.",
+            "D": "Citation links connect people, while Web links connect information."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "05_web_hubs_authorities_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is the definition of a Strongly Connected Component (SCC) in a directed graph?",
+        "options": {
+            "A": "A subset of nodes where every node has a path *from* every other node in the subset.",
+            "B": "A subset of nodes where every node has a path *to* every other node in the subset, and this subset is maximal with this property.",
+            "C": "A subset of nodes where all links are bidirectional.",
+            "D": "A subset of nodes that are completely isolated from the rest of the graph."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "05_web_hubs_authorities_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the Bow-tie structure of the Web, what region consists of nodes that can be reached from the giant SCC but cannot reach back to it?",
+        "options": {
+            "A": "The IN region.",
+            "B": "The OUT region.",
+            "C": "The Tendrils.",
+            "D": "The Disconnected region."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "05_web_hubs_authorities_handout.pdf"
+        ]
+    },
+    {
+        "question": "Based on the text's example for the query \"newspapers\", why is ranking pages solely by the number of incoming links considered \"a too simple measure\"?",
+        "options": {
+            "A": "It only counts links from specific domains.",
+            "B": "It doesn't account for the content of the pages.",
+            "C": "It can result in irrelevant pages receiving high ranks alongside relevant ones.",
+            "D": "It requires external information not available in the Web structure."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "05_web_hubs_authorities_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the link analysis procedure described, how are \"authorities\" and \"hubs\" defined?",
+        "options": {
+            "A": "Authorities are high-value lists, and hubs are pages with high scores.",
+            "B": "Authorities are pages with high scores for the query, and hubs are high-value lists for the query.",
+            "C": "Authorities are pages with no outgoing links, and hubs are pages with no incoming links.",
+            "D": "Authorities are nodes in the IN region, and hubs are nodes in the OUT region."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "05_web_hubs_authorities_handout.pdf"
+        ]
+    },
+    {
+        "question": "How is the Authority Update Rule represented using matrix notation, based on the provided text?",
+        "options": {
+            "A": "h = Aa",
+            "B": "a = Ah",
+            "C": "a = A\u22a4h",
+            "D": "h = A\u22a4a"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "05_web_hubs_authorities_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the spectral analysis discussion, the sequence of normalized hub vectors converges to a vector in the direction of which of the following?",
+        "options": {
+            "A": "The initial hub vector h(0).",
+            "B": "An arbitrary vector in the network graph.",
+            "C": "The eigenvector of the matrix AA\u22a4 corresponding to its largest eigenvalue.",
+            "D": "The sum of all authority vectors."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "05_web_hubs_authorities_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, in the previous lecture's discussion of hubs and authorities, nodes were described as playing multiple roles (i.e., hub and authority). In contrast, the PageRank analysis focuses on nodes playing how many roles?",
+        "options": {
+            "A": "Zero roles",
+            "B": "One role",
+            "C": "Two roles",
+            "D": "Multiple roles, similar to hubs and authorities"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "06_googles_page_rank_handout.pdf"
+        ]
+    },
+    {
+        "question": "Based on the \"Links as Votes\" concept in PageRank, what determines if a link from a source page counts more towards the destination page's importance?",
+        "options": {
+            "A": "The number of outgoing links from the source page.",
+            "B": "The total number of pages in the network.",
+            "C": "The importance of the source page itself.",
+            "D": "Whether the link is the first link on the source page."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "06_googles_page_rank_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the PageRank \"flow\" model, if page i has importance ri and di out-links, what is the vote contribution that each of its outgoing links receives?",
+        "options": {
+            "A": "ri * di",
+            "B": "ri / di",
+            "C": "di / ri",
+            "D": "ri + di"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "06_googles_page_rank_handout.pdf"
+        ]
+    },
+    {
+        "question": "The Basic PageRank Update Rule describes how PageRank is computed iteratively. What action does the rule specify for a page regarding its outgoing links during an update step?",
+        "options": {
+            "A": "It accumulates PageRank from incoming links.",
+            "B": "It passes all its current PageRank to the first page it points to.",
+            "C": "It divides its current PageRank equally across its outgoing links and passes these shares.",
+            "D": "It subtracts a portion of its PageRank for each outgoing link."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "06_googles_page_rank_handout.pdf"
+        ]
+    },
+    {
+        "question": "Why is the rule \"If a page has no outgoing links, it passes all its current PageRank to itself\" necessary in the Basic PageRank update rule?",
+        "options": {
+            "A": "To increase the total PageRank in the network over time.",
+            "B": "To ensure the total PageRank value in the network remains constant.",
+            "C": "To allow the algorithm to converge faster.",
+            "D": "To prevent the spider trap problem."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "06_googles_page_rank_handout.pdf"
+        ]
+    },
+    {
+        "question": "What is the definition of an equilibrium state for the PageRank values when applying the Basic PageRank Update Rule?",
+        "options": {
+            "A": "When the network graph becomes undirected.",
+            "B": "When the total number of links equals the number of nodes.",
+            "C": "When applying the update rule results in no change to any PageRank value.",
+            "D": "When all nodes have a PageRank of exactly 1/n."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "06_googles_page_rank_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is the fundamental cause of the \"spider trap\" problem in the basic PageRank calculation?",
+        "options": {
+            "A": "When there are too many nodes with no incoming links.",
+            "B": "When the graph is not strongly connected, allowing PageRank to accumulate in parts of the network with no path back.",
+            "C": "When the initial PageRank values do not sum to one.",
+            "D": "When the scaling factor alpha is set to 1."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "06_googles_page_rank_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the Scaled PageRank Update Rule, a scaling factor \u03b1 (between 0 and 1) is introduced. After applying the Basic PageRank Update Rule, what two steps are performed with this factor?",
+        "options": {
+            "A": "Scale up PageRank by \u03b1 and add 1-\u03b1 uniformly.",
+            "B": "Scale down PageRank by \u03b1 and distribute the residual 1-\u03b1 units equally over all nodes.",
+            "C": "Scale down PageRank by 1-\u03b1 and distribute the residual \u03b1 units equally over all nodes.",
+            "D": "Multiply PageRank by \u03b1 and divide by n."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "06_googles_page_rank_handout.pdf"
+        ]
+    },
+    {
+        "question": "From the perspective of spectral analysis, the matrix \u02dcW used in the scaled PageRank update rule is defined as \u03b1W + 1\u2212\u03b1n e\u22a4e. The text states this formulation effectively changes the input graph by:",
+        "options": {
+            "A": "Removing links with low weights.",
+            "B": "Adding weights to existing links based on node importance.",
+            "C": "Adding a link from each node to every other node, making the resulting graph virtually complete and strongly connected.",
+            "D": "Reducing the total number of nodes in the graph."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "06_googles_page_rank_handout.pdf"
+        ]
+    },
+    {
+        "question": "How is the jump probability of the random surfer altered in Personalized PageRank compared to standard Scaled PageRank?",
+        "options": {
+            "A": "With probability 1-alpha, the surfer always stays at the current node.",
+            "B": "With probability 1-alpha, the surfer jumps to a random page chosen from a specific, pre-selected set S, instead of any random page in the network.",
+            "C": "The surfer always follows links with probability 1.",
+            "D": "The surfer is forced to jump to a page outside the network with probability 1-alpha."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "06_googles_page_rank_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the introduction, the course transitions from analyzing the structure of social and information networks to focusing on what aspect?",
+        "options": {
+            "A": "Network optimization techniques",
+            "B": "Network dynamics",
+            "C": "Comparative network analysis",
+            "D": "Centrality measures in networks"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "08_information_cascades_handout.pdf"
+        ]
+    },
+    {
+        "question": "The text states that in many situations, it is rational for an individual to imitate the choices of others. What is one key reason provided for this being rational, even if private information differs?",
+        "options": {
+            "A": "To maximize direct monetary benefits.",
+            "B": "To comply with social norms and avoid penalties.",
+            "C": "Because the information inferred from others' choices can be more powerful than one's own private information.",
+            "D": "To gain popularity within the network."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "08_information_cascades_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the Milgram experiment described, involving people staring at the sky on a street corner, what was the observed effect when the group size increased from 1 to 15 persons?",
+        "options": {
+            "A": "The percentage of passersby who stopped decreased.",
+            "B": "The percentage of passersby who stopped remained relatively constant.",
+            "C": "The percentage of passersby who stopped increased significantly from very few to 45%.",
+            "D": "Passersby were less likely to look up as the group size grew larger."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "08_information_cascades_handout.pdf"
+        ]
+    },
+    {
+        "question": "The text identifies two rational reasons for imitation: Informational effects and Direct-benefit effects. Which type of effect describes a situation where the actions of some *directly* influence the payoff received by others?",
+        "options": {
+            "A": "Informational effects",
+            "B": "Indirect effects",
+            "C": "Direct-benefit effects",
+            "D": "Cascade effects"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "08_information_cascades_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the Anderson and Holt herding experiment using an urn, what action is each student instructed to take privately before announcing their guess about the urn's majority color?",
+        "options": {
+            "A": "They draw a marble and show it to everyone.",
+            "B": "They are given the prior probabilities of the urn compositions.",
+            "C": "They draw a marble, look at its color without showing it, and place it back.",
+            "D": "They consult with the experimenter about their observation."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "08_information_cascades_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the likelihoods described for the herding experiment outcome (Slide 14), under which condition is the third student's announced guess *most likely* to convey no new information about the true state of the urn?",
+        "options": {
+            "A": "If the third student's private signal is different from the previous guesses.",
+            "B": "If the first two students announced guesses of the same color.",
+            "C": "If the sequence of announced guesses from the first two students is one red and one blue.",
+            "D": "If the third student privately draws a color that contradicts their expected outcome."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "08_information_cascades_handout.pdf"
+        ]
+    },
+    {
+        "question": "Applying Bayes' Rule in the herding experiment, if the first student draws a blue marble (and the prior probability of majority-blue is 1/2, and Pr[blue | majority-blue] is 2/3), what is the calculated posterior probability that the urn is majority-blue?",
+        "options": {
+            "A": "1/2",
+            "B": "1/3",
+            "C": "2/3",
+            "D": "1/9"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "08_information_cascades_handout.pdf"
+        ]
+    },
+    {
+        "question": "What are the three main ingredients of the General Cascade Model presented in the text?",
+        "options": {
+            "A": "Network Structure, Information Flow, and Decision Rules",
+            "B": "States of the World, Payoffs, and Signals",
+            "C": "Prior Probabilities, Observed Actions, and Posterior Beliefs",
+            "D": "Agents, Options, and Outcomes"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "08_information_cascades_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the General Cascade Model, individuals receive 'a' high signals and 'b' low signals. Based on the claim derived from comparing Pr[G|S] with Pr[G], under what condition should individuals accept the option?",
+        "options": {
+            "A": "When the number of low signals ('b') is greater than the number of high signals ('a').",
+            "B": "When the number of high signals ('a') is less than the number of low signals ('b').",
+            "C": "When the number of high signals ('a') is equal to the number of low signals ('b').",
+            "D": "When the number of high signals ('a') is greater than the number of low signals ('b')."
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "08_information_cascades_handout.pdf"
+        ]
+    },
+    {
+        "question": "One of the conclusions drawn about information cascades is that they are likely to occur. What other characteristic of cascades is highlighted in the conclusion?",
+        "options": {
+            "A": "They always lead to the optimal collective outcome.",
+            "B": "They require extensive information to start.",
+            "C": "They can be wrong if early signals were misleading.",
+            "D": "Individuals continue to heavily rely on their private information after a cascade begins."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "08_information_cascades_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is machine learning primarily the study of?",
+        "options": {
+            "A": "Computer hardware configurations",
+            "B": "Computer algorithms that improve automatically through data and experience",
+            "C": "Database management systems",
+            "D": "Human-computer interaction interfaces"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "07_ml_graph_i_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the context of supervised learning as described, how are features partitioned?",
+        "options": {
+            "A": "Into training data and test data",
+            "B": "Into numerical features and categorical features",
+            "C": "Into input features (x) and an output feature (y)",
+            "D": "Into independent variables and dependent variables (excluding output)"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "07_ml_graph_i_handout.pdf"
+        ]
+    },
+    {
+        "question": "Based on the text, what is the defined task (T) in the context of supervised learning?",
+        "options": {
+            "A": "Predicting future experiences (E)",
+            "B": "Measuring performance (P)",
+            "C": "Automatically improving algorithms",
+            "D": "Mapping inputs (x) to output (y)"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "07_ml_graph_i_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is a common way to measure performance (P) in supervised learning?",
+        "options": {
+            "A": "The total execution time of the algorithm",
+            "B": "The number of parameters in the model",
+            "C": "How well the learned function fits the training data and generalizes to unseen data",
+            "D": "The size of the dataset used for training"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "07_ml_graph_i_handout.pdf"
+        ]
+    },
+    {
+        "question": "What is added to the hidden units in a Multi-Layer Perceptron (MLP) to make the composite function non-linear, according to the text?",
+        "options": {
+            "A": "An affine transformation",
+            "B": "A linear activation function",
+            "C": "A non-linear activation function",
+            "D": "A dropout layer"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "07_ml_graph_i_handout.pdf"
+        ]
+    },
+    {
+        "question": "The universal approximation theorem, as mentioned in the text, states that an MLP with one hidden layer can approximate what?",
+        "options": {
+            "A": "Only linear functions with arbitrary precision",
+            "B": "Any well-behaved function within an arbitrarily small error",
+            "C": "Any function exactly, regardless of its behavior",
+            "D": "Only functions used in image classification tasks"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "07_ml_graph_i_handout.pdf"
+        ]
+    },
+    {
+        "question": "In classification using MLP, what function is typically applied to the output layer to represent probabilities for each class?",
+        "options": {
+            "A": "ReLU",
+            "B": "Sigmoid",
+            "C": "Softmax",
+            "D": "Tanh"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "07_ml_graph_i_handout.pdf"
+        ]
+    },
+    {
+        "question": "What is identified as a major challenge for applying modern deep learning toolboxes (like CNNs or RNNs) to graphs?",
+        "options": {
+            "A": "The lack of available training data for graphs",
+            "B": "Graphs have arbitrary size and complex topographical structure with no fixed node ordering",
+            "C": "The computational cost of training on graphs is excessively high",
+            "D": "Graphs only support numerical feature types"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "07_ml_graph_i_handout.pdf"
+        ]
+    },
+    {
+        "question": "What is the fundamental intuition behind the Graph Neural Network (GNN) approach described?",
+        "options": {
+            "A": "Training a separate neural network for each node independently",
+            "B": "Ignoring the graph structure and using only node features",
+            "C": "Combining graph structure and node features via neighborhood aggregation",
+            "D": "Converting graphs into fixed-size image grids for processing"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "07_ml_graph_i_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the described GCN propagation model, what does h(K)u represent for node u after K layers?",
+        "options": {
+            "A": "The input feature vector of node u",
+            "B": "The trainable weight parameters of the K-th layer",
+            "C": "The degree of node u",
+            "D": "The learned representation (embedding) of node u"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "07_ml_graph_i_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, under what condition can Label Propagation be used as discussed in the context of graph machine learning?",
+        "options": {
+            "A": "When the graph is dense.",
+            "B": "When the graph is directed.",
+            "C": "When no node features are available.",
+            "D": "When the adjacency matrix is unknown."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "09_ml_graph_ii_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the Node Classification setup described in the text, what does the matrix X\u2208R N\u00d7q primarily represent?",
+        "options": {
+            "A": "The node set.",
+            "B": "The adjacency matrix.",
+            "C": "A matrix of input node features.",
+            "D": "The set of labeled nodes."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "09_ml_graph_ii_handout.pdf"
+        ]
+    },
+    {
+        "question": "Graph Neural Networks, as described, utilize which two main types of information for node classification?",
+        "options": {
+            "A": "Node degrees and clustering coefficients.",
+            "B": "Graph structure and node features.",
+            "C": "Labeled node indices and unlabeled node indices.",
+            "D": "One-hot encodings and activation functions."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "09_ml_graph_ii_handout.pdf"
+        ]
+    },
+    {
+        "question": "What are the two general operations conducted within each layer of a Graph Neural Network, according to the text?",
+        "options": {
+            "A": "Normalize and Scale.",
+            "B": "Propagate and Predict.",
+            "C": "Aggregate and Combine.",
+            "D": "Embed and Project."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "09_ml_graph_ii_handout.pdf"
+        ]
+    },
+    {
+        "question": "What is the Homophily Assumption as stated in the context?",
+        "options": {
+            "A": "Connected nodes tend to have different labels.",
+            "B": "Disconnected nodes tend to have similar features.",
+            "C": "Connected nodes tend to share the same label.",
+            "D": "Nodes in the same community have distinct features."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "09_ml_graph_ii_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the described Label Propagation process, what probability for belonging to class 1 is typically assigned to unlabeled nodes during the initialization phase?",
+        "options": {
+            "A": "0.0",
+            "B": "1.0",
+            "C": "0.5",
+            "D": "A randomly assigned value."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "09_ml_graph_ii_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, the theoretical foundation of Label Propagation relates it to an optimization problem involving which specific matrix?",
+        "options": {
+            "A": "The Adjacency Matrix (A).",
+            "B": "The Input Feature Matrix (X).",
+            "C": "The Symmetric Normalized Laplacian Matrix (Lsym).",
+            "D": "The Soft Label Matrix (Z)."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "09_ml_graph_ii_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the Correcting step (Step 3.1) of the Correct&Smooth procedure, what specific information is diffused along the edges?",
+        "options": {
+            "A": "The initial soft labels predicted by the base predictor.",
+            "B": "The ground-truth hard labels of the training nodes.",
+            "C": "The training errors (ground-truth minus soft label).",
+            "D": "The original input node features."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "09_ml_graph_ii_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what information is used for the training nodes in the Smoothing step (Step 3.3) of the Correct&Smooth procedure?",
+        "options": {
+            "A": "The soft labels from the base predictor.",
+            "B": "The corrected soft labels from the previous step.",
+            "C": "The ground-truth hard labels.",
+            "D": "The diffused training errors."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "09_ml_graph_ii_handout.pdf"
+        ]
+    },
+    {
+        "question": "How does the Simplifying Graph Convolutional Networks (SGC) model simplify the standard GCN update rule, as described in the text?",
+        "options": {
+            "A": "By increasing the number of layers.",
+            "B": "By adding an extra normalization step.",
+            "C": "By removing the non-linearity from the update rule.",
+            "D": "By only using a subset of node features."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "09_ml_graph_ii_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, how is the popularity of a Web page defined?",
+        "options": {
+            "A": "The number of times the page is visited per day",
+            "B": "The number of links the page creates to other pages",
+            "C": "The number of links pointing to the page",
+            "D": "The ranking of the page in search engine results"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "10a_powerlaws_handout.pdf"
+        ]
+    },
+    {
+        "question": "What type of distribution is approximately followed by the fraction of Web pages having k in-links?",
+        "options": {
+            "A": "Normal distribution",
+            "B": "Uniform distribution",
+            "C": "Power law distribution",
+            "D": "Exponential distribution"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "10a_powerlaws_handout.pdf"
+        ]
+    },
+    {
+        "question": "How does the decrease rate of a power law distribution like the one for Web in-links (approximately 1/k^2) compare to that of a normal distribution as k increases?",
+        "options": {
+            "A": "The power law decreases much faster",
+            "B": "The power law decreases at the same rate",
+            "C": "The power law decreases much more slowly",
+            "D": "The power law increases, while the normal distribution decreases"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "10a_powerlaws_handout.pdf"
+        ]
+    },
+    {
+        "question": "Based on the text, what is the suggested method to test whether a dataset's distribution f(k) approximately follows a power law of the form f(k) = a/k^c?",
+        "options": {
+            "A": "Plot f(k) against k on a linear scale",
+            "B": "Plot log(f(k)) against k",
+            "C": "Plot f(k) against log(k)",
+            "D": "Plot log(f(k)) against log(k)"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "10a_powerlaws_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the Preferential Attachment Model described, with what probability does a new page 'j' choose an earlier page 'i' uniformly at random from all earlier pages and create a link to it (action a)?",
+        "options": {
+            "A": "0",
+            "B": "1 - p",
+            "C": "p",
+            "D": "1"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "10a_powerlaws_handout.pdf"
+        ]
+    },
+    {
+        "question": "What is the key principle behind the term \"Preferential Attachment\" as defined in the context of the model?",
+        "options": {
+            "A": "Links are formed randomly regardless of existing popularity",
+            "B": "Links are formed only to the most recently created pages",
+            "C": "Links are formed preferentially to pages that already have high popularity",
+            "D": "Links are formed based on the content similarity between pages"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "10a_powerlaws_handout.pdf"
+        ]
+    },
+    {
+        "question": "The Matthew effect in sociology is mentioned in the text as an example related to which phenomenon?",
+        "options": {
+            "A": "Information cascade",
+            "B": "The definition of popularity",
+            "C": "The unpredictability of evolution",
+            "D": "The Rich-get-richer effect"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "10a_powerlaws_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is a characteristic of the initial phase of an object's rise to popularity?",
+        "options": {
+            "A": "It is highly predictable and stable",
+            "B": "It is relatively fragile and precarious",
+            "C": "It strictly follows a normal distribution",
+            "D": "It bypasses the need for rich-get-richer dynamics"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "10a_powerlaws_handout.pdf"
+        ]
+    },
+    {
+        "question": "The music download experiment by Salgankik, Dodds, and Watts involved setting up multiple parallel copies of a music download site. What was a key finding from this experiment regarding song popularity?",
+        "options": {
+            "A": "The highest quality songs consistently dominated market share across all copies.",
+            "B": "The popularity of songs was highly predictable once download counts were visible.",
+            "C": "The market share of different songs varied considerably across the different parallel copies.",
+            "D": "Displaying download counts had no significant effect on song popularity."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "10a_powerlaws_handout.pdf"
+        ]
+    },
+    {
+        "question": "The text mentions that the distribution of links on the Web is approximately 1/k^2. What does 'k' represent in this context?",
+        "options": {
+            "A": "The total number of pages on the Web",
+            "B": "The number of in-links a page has",
+            "C": "The age of a Web page",
+            "D": "The position of a page in a search result list"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "10a_powerlaws_handout.pdf"
+        ]
+    },
+    {
+        "question": "Based on Milgram's 1960s experiment described in the text, what was the median number of steps for a letter to reach its target?",
+        "options": {
+            "A": "5",
+            "B": "6",
+            "C": "10",
+            "D": "100"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "10b_smallworld_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, the Watts and Strogatz model aims to simultaneously model which two observations about social networks?",
+        "options": {
+            "A": "High clustering and short paths",
+            "B": "Decentralized search efficiency and network size",
+            "C": "Geographic proximity and occupational features",
+            "D": "Probability of linking and clustering exponent"
+        },
+        "correct_answer": "A",
+        "source_pdfs": [
+            "10b_smallworld_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the Watts and Strogatz model described, links to acquaintances that connect us to otherwise far-away network parts are referred to as what?",
+        "options": {
+            "A": "Homophily links",
+            "B": "Triadic closure links",
+            "C": "Weak ties",
+            "D": "Radius-r links"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "10b_smallworld_handout.pdf"
+        ]
+    },
+    {
+        "question": "The text states that decentralized search is inefficient in the original Watts and Strogatz model primarily due to what characteristic of the weak ties?",
+        "options": {
+            "A": "They are too long-range",
+            "B": "They are too random",
+            "C": "They are too few in number",
+            "D": "They decay with distance"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "10b_smallworld_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the generalized model for decentralized search presented in the text, the probability of generating a random edge between two nodes u and v is proportional to what value related to their grid distance d(u,v)?",
+        "options": {
+            "A": "d(u,v) raised to the power of q",
+            "B": "The inverse of d(u,v)",
+            "C": "d(u,v) raised to the power of -q",
+            "D": "A constant value independent of distance"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "10b_smallworld_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what specific value for the clustering exponent 'q' in the generalized model for decentralized search results in the most efficient decentralized search?",
+        "options": {
+            "A": "0",
+            "B": "1",
+            "C": "2",
+            "D": "Infinitely large"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "10b_smallworld_handout.pdf"
+        ]
+    },
+    {
+        "question": "The intuition provided in the text for why q=2 is optimal relates to the probability of a random edge linking into a ring of nodes at distance 'd' from a source node. How does this probability behave for q=2?",
+        "options": {
+            "A": "It is proportional to d^2",
+            "B": "It is proportional to d^-2",
+            "C": "It increases with d",
+            "D": "It is approximately independent of d"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "10b_smallworld_handout.pdf"
+        ]
+    },
+    {
+        "question": "What online social network platform was used in the empirical study by Liben-Nowell et al. to analyze real social network link formation?",
+        "options": {
+            "A": "Facebook",
+            "B": "Twitter",
+            "C": "LiveJournal",
+            "D": "MySpace"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "10b_smallworld_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the rank-based friendship model described, how is the rank of a node 'w' relative to a node 'v' defined?",
+        "options": {
+            "A": "The grid distance between v and w",
+            "B": "The number of other nodes that are closer to v than w is",
+            "C": "The number of nodes reachable from v in one step",
+            "D": "The total number of nodes in the network"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "10b_smallworld_handout.pdf"
+        ]
+    },
+    {
+        "question": "Based on the text's comparison of the uniformly-spaced grid model and rank-based friendship, linking with probability proportional to d^-2 (distance squared inverse) is approximately equivalent to rank-based friendship with which exponent 'p'?",
+        "options": {
+            "A": "p = -1",
+            "B": "p = 0",
+            "C": "p = 1",
+            "D": "p = 2"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "10b_smallworld_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what was a characteristic of the network model studied in the week prior to Week 11?",
+        "options": {
+            "A": "It constructed the network in a deterministic way.",
+            "B": "It required creating random links inversely proportional to the number of closer nodes.",
+            "C": "It was primarily focused on the client-server model.",
+            "D": "It did not result in a small-world network structure."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "11_peer_to_peer_handout.pdf"
+        ]
+    },
+    {
+        "question": "In a Peer-to-Peer (P2P) system, how does the function of each computer (node or peer) differ from the traditional client-server model, according to the text?",
+        "options": {
+            "A": "P2P nodes act only as clients, while servers supply content.",
+            "B": "P2P nodes act only as servers, supplying content to clients.",
+            "C": "P2P nodes act as both clients and servers.",
+            "D": "P2P nodes require a centralized computer to manage roles."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "11_peer_to_peer_handout.pdf"
+        ]
+    },
+    {
+        "question": "The text mentions that P2P systems organize nodes into a logical overlay network. At which layer of the network stack does this overlay network operate?",
+        "options": {
+            "A": "Physical Layer",
+            "B": "Data Link Layer",
+            "C": "Network Layer",
+            "D": "Application Layer"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "11_peer_to_peer_handout.pdf"
+        ]
+    },
+    {
+        "question": "Based on the text, which type of P2P system is characterized by nodes randomly forming connections without a specific imposed structure?",
+        "options": {
+            "A": "Structured P2P systems",
+            "B": "Hybrid P2P systems",
+            "C": "Unstructured P2P systems",
+            "D": "Centralized P2P systems"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "11_peer_to_peer_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is a key advantage of Unstructured P2P systems?",
+        "options": {
+            "A": "They make it easy to search for extremely rare content.",
+            "B": "They are less robust in the face of high rates of churn (nodes joining/leaving).",
+            "C": "They are easy to build and robust to high rates of churn.",
+            "D": "They impose a specific global structure upon the network."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "11_peer_to_peer_handout.pdf"
+        ]
+    },
+    {
+        "question": "The text describes Napster as a hybrid system. Which part of its operation was centralized?",
+        "options": {
+            "A": "The file downloading between peers.",
+            "B": "The lookup service for finding files.",
+            "C": "The storage of the actual file content.",
+            "D": "The creation of the overlay network links."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "11_peer_to_peer_handout.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what was the primary mechanism used by the pure P2P system Gnutella for looking up a data item?",
+        "options": {
+            "A": "Using a centralized index server.",
+            "B": "Querying a Distributed Hash Table (DHT).",
+            "C": "Flooding lookup requests to connected nodes.",
+            "D": "Directly connecting to the file publisher."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "11_peer_to_peer_handout.pdf"
+        ]
+    },
+    {
+        "question": "In a Distributed Hash Table (DHT), what is the main function of the `lookup(key)` operation?",
+        "options": {
+            "A": "To store a value associated with a key on a node.",
+            "B": "To retrieve the value associated with a key from a node.",
+            "C": "To return the identity (e.g., IP address) of the node responsible for a given key.",
+            "D": "To calculate the hash value of a data item."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "11_peer_to_peer_handout.pdf"
+        ]
+    },
+    {
+        "question": "Within the Chord Distributed Hash Table, how is the finger table used during the routing process?",
+        "options": {
+            "A": "It lists all nodes currently in the network.",
+            "B": "It is used to query successive nodes one by one.",
+            "C": "It helps route by identifying nodes responsible for keys at exponentially increasing distances.",
+            "D": "It only stores the address of the immediate successor node."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "11_peer_to_peer_handout.pdf"
+        ]
+    },
+    {
+        "question": "In the Content Addressable Network (CAN) DHT, what constitutes a node's zone of responsibility?",
+        "options": {
+            "A": "A range of node IDs in a ring structure.",
+            "B": "A subset of keys partitioned from a hash table.",
+            "C": "A geographical area in the physical network.",
+            "D": "A rectangular region within a d-dimensional Cartesian space."
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "11_peer_to_peer_handout.pdf"
+        ]
+    }
+]
