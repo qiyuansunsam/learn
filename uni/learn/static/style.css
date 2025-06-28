@@ -1,0 +1,246 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.section {
+    margin-bottom: 25px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+.section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+}
+
+label {
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+select, input[type="number"], button {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+button {
+    cursor: pointer;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#add-topic-btn {
+    background-color: #0275d8;
+}
+
+.action-btn {
+    margin-bottom: 10px; /* Add space below buttons if they wrap */
+}
+
+.generate-controls {
+    display: inline-block; /* Keep generate button and input together */
+    margin-left: 15px;
+}
+
+.generate-controls label {
+    margin-left: 10px;
+}
+
+input[type="number"] {
+    width: 60px;
+}
+
+.display-section {
+    display: flex;
+    gap: 20px; /* Space between bank and log */
+}
+
+.display-area {
+    flex: 1; /* Each area takes half the space */
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    min-height: 200px; /* Ensure areas have some height */
+    max-height: 400px; /* Prevent them from getting too tall */
+    overflow-y: auto; /* Add scrollbars if content overflows */
+}
+
+pre {
+    white-space: pre-wrap; /* Wrap long lines */
+    word-wrap: break-word; /* Break words if necessary */
+    font-family: monospace;
+    font-size: 0.9em;
+    margin: 0; /* Remove default margin */
+}
+
+#loading-indicator {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #d9534f;
+}
+/* Add these styles to your existing style.css */
+
+.quiz-section {
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#question-container {
+    margin-bottom: 15px;
+}
+
+#question-text {
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+#options-container label {
+    display: block; /* Each option on a new line */
+    margin-bottom: 8px;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 3px;
+    transition: background-color 0.2s ease;
+}
+#options-container label:hover {
+    background-color: #f0f0f0;
+}
+
+
+#options-container input[type="radio"] {
+    margin-right: 10px;
+}
+
+#submit-answer-btn {
+    margin-top: 15px;
+    background-color: #007bff;
+}
+
+#feedback-text {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.feedback-correct {
+    color: green;
+}
+
+.feedback-incorrect {
+    color: red;
+}
+
+.navigation-buttons {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#question-counter {
+    font-style: italic;
+    color: #555;
+}
+
+/* Style the file input */
+.generate-controls input[type="file"] {
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.generate-controls h3 {
+    margin-bottom: 10px;
+}
+
+/* Highlight correct/incorrect options */
+.correct-option {
+    background-color: #d4edda; /* Light green */
+    border: 1px solid #c3e6cb;
+}
+
+.incorrect-option-selected {
+     background-color: #f8d7da; /* Light red */
+     border: 1px solid #f5c6cb;
+}
+
+/* Add these styles */
+.file-selector-container {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    max-height: 150px; /* Limit height and add scroll */
+    overflow-y: auto;
+}
+
+.file-selector-container label {
+    display: block; /* Make the main label block */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+#context-file-selector label {
+    display: block; /* Each checkbox on a new line */
+    margin-bottom: 5px;
+    font-weight: normal; /* Normal weight for file labels */
+    cursor: pointer;
+}
+
+#context-file-selector input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+#context-file-selector p { /* Style the placeholder text */
+    font-style: italic;
+    color: #777;
+}
+/* Add this style to your existing style.css */
+
+.danger-btn {
+    background-color: #d9534f; /* Red color */
+    color: white;
+}
+
+.danger-btn:hover {
+    background-color: #c9302c; /* Darker red on hover */
+    opacity: 1; /* Override general button hover opacity if needed */
+}
+
+/* Optional: Adjust spacing if needed */
+#clear-history-btn {
+    margin-left: 10px;
+}

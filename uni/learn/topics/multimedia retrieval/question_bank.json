@@ -1,0 +1,1432 @@
+[
+    {
+        "question": "On which Country do the University of Sydney campuses stand, as acknowledged at the beginning of the text?",
+        "options": {
+            "A": "Ngunnawal Country",
+            "B": "Wurundjeri Country",
+            "C": "Country on which the University campuses stand (as stated in text)",
+            "D": "Gadigal Country"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W01_Intro_JK.pdf"
+        ]
+    },
+    {
+        "question": "What unit of study is being introduced in the provided text?",
+        "options": {
+            "A": "COMP5405 Digital Media Computing",
+            "B": "COMP5415 Multimedia Design & Authoring",
+            "C": "COMP5425 Multimedia Retrieval",
+            "D": "COMP5045 Computational Geometry"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W01_Intro_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the contact information provided, where is Prof. Zhiyong WANG's office located?",
+        "options": {
+            "A": "Rm 349, School of Computer Science Building, J12",
+            "B": "PNR Lecture Theatre (2) 302",
+            "C": "Lab 115, School of CS Building",
+            "D": "Online via Zoom"
+        },
+        "correct_answer": "A",
+        "source_pdfs": [
+            "COMP5425_W01_Intro_JK.pdf"
+        ]
+    },
+    {
+        "question": "Based on the \"History of Computing\" timeline presented, which decade is associated with the development of Software?",
+        "options": {
+            "A": "1950s",
+            "B": "1960s",
+            "C": "1970s",
+            "D": "1980s"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W01_Intro_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the text's definition, what constitutes Multimedia?",
+        "options": {
+            "A": "Any single media form presented via a computer interface.",
+            "B": "Only the combination of Text and Images.",
+            "C": "Any combination of two or more media forms well integrated and presented via a single interface or manipulated by computer programs.",
+            "D": "Only Video and Audio displayed together."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W01_Intro_JK.pdf"
+        ]
+    },
+    {
+        "question": "Which stage is NOT listed as part of the Multimedia Ecosystem in the provided diagram?",
+        "options": {
+            "A": "Multimedia Development",
+            "B": "Multimedia Consumption",
+            "C": "Multimedia Analysis",
+            "D": "Multimedia Storage"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W01_Intro_JK.pdf"
+        ]
+    },
+    {
+        "question": "In the Multimedia Development process outlined, what step involves assembling all multimedia elements and integrating them into an application?",
+        "options": {
+            "A": "Storyboard Design",
+            "B": "Development of Multimedia Elements",
+            "C": "Authoring",
+            "D": "Testing and Revision"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W01_Intro_JK.pdf"
+        ]
+    },
+    {
+        "question": "Which item is listed in the text as an example source contributing to \"Data Creation --> Data Deluge\"?",
+        "options": {
+            "A": "Desktop Computers",
+            "B": "Drones shooting",
+            "C": "Digital Cameras (not listed)",
+            "D": "CD-ROMs"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W01_Intro_JK.pdf"
+        ]
+    },
+    {
+        "question": "For the COMP5425 unit, what is the weighted percentage assigned to the Final Exam assessment task?",
+        "options": {
+            "A": "10%",
+            "B": "15%",
+            "C": "20%",
+            "D": "55%"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "COMP5425_W01_Intro_JK.pdf"
+        ]
+    },
+    {
+        "question": "Based on the Assessment section, what is one of the minimum requirements to pass the COMP5425 course?",
+        "options": {
+            "A": "Score at least 50% in the Project component.",
+            "B": "Score at least 40% overall.",
+            "C": "Score at least 40% in the final exam.",
+            "D": "Attend all scheduled lectures and labs."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W01_Intro_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is the primary concern of Information Retrieval (IR)?",
+        "options": {
+            "A": "Developing algorithms and models for retrieving information from document repositories according to an information need.",
+            "B": "Organizing multimedia data for efficient storage.",
+            "C": "Creating databases for structured information.",
+            "D": "Analyzing user interaction patterns on the web."
+        },
+        "correct_answer": "A",
+        "source_pdfs": [
+            "COMP5425_W02_Text.pdf"
+        ]
+    },
+    {
+        "question": "What significant development in Information Retrieval started in the 1990s and continues today, according to the text?",
+        "options": {
+            "A": "The introduction of the SMART system.",
+            "B": "The establishment of the TREC (Text Retrieval Conference) series.",
+            "C": "Key developments based on small test collections.",
+            "D": "The first use of computers for searching text."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W02_Text.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is listed as a major issue in Information Retrieval according to the provided slides?",
+        "options": {
+            "A": "Network security",
+            "B": "Hardware acceleration",
+            "C": "Content analysis",
+            "D": "Database normalization"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W02_Text.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what does the i-th dimension indicate in a Boolean Vector document representation?",
+        "options": {
+            "A": "The frequency of the i-th term in the document.",
+            "B": "The position of the i-th term within the document.",
+            "C": "Whether the i-th term in the vocabulary appears in the given document.",
+            "D": "The importance of the i-th term in the document."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W02_Text.pdf"
+        ]
+    },
+    {
+        "question": "What is highlighted as the main advantage of using an Inverted File index for searching?",
+        "options": {
+            "A": "It minimizes storage requirements compared to a Term-Document Incidence Matrix.",
+            "B": "It is easy and efficient for searching.",
+            "C": "It supports advanced queries like phrases directly without modification.",
+            "D": "It automatically handles updates and modifications efficiently."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W02_Text.pdf"
+        ]
+    },
+    {
+        "question": "Based on the text, what is a characteristic of the Bag of Words model for document representation?",
+        "options": {
+            "A": "It considers the grammatical structure of sentences.",
+            "B": "It represents documents as vectors in a space where word order is ignored.",
+            "C": "It relies on explicit feedback from the user.",
+            "D": "It uses Euclidean distance to measure document similarity."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W02_Text.pdf"
+        ]
+    },
+    {
+        "question": "In the context of calculating term weights in Information Retrieval, why is Document Frequency (df) used to derive idf (inverse document frequency)?",
+        "options": {
+            "A": "To increase the weight of terms that appear in many documents.",
+            "B": "To capture the rarity or informativeness of a term across the collection.",
+            "C": "To determine the exact position of a term within a document.",
+            "D": "To measure the total number of occurrences of a term in the collection."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W02_Text.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is identified as a limitation of Boolean retrieval, particularly for precise information needs?",
+        "options": {
+            "A": "It requires manual creation of index files.",
+            "B": "It views each document as a vector of term frequencies.",
+            "C": "It is not flexible, resulting in either too few or too many results (either match or not).",
+            "D": "It cannot be used with Boolean operators like AND, OR, and NOT."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W02_Text.pdf"
+        ]
+    },
+    {
+        "question": "In the context of Relevance Feedback using the vector space model (like the Rocchio algorithm), what concept represents the center of mass of a set of documents?",
+        "options": {
+            "A": "The tf-idf score",
+            "B": "The Centroid",
+            "C": "The Inverted Index",
+            "D": "The Query Vector"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W02_Text.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is the main purpose of a dynamic summary in results presentation?",
+        "options": {
+            "A": "To always show the first 50 words of a document.",
+            "B": "To present a fixed, pre-computed description of the document.",
+            "C": "To extract a set of \"key\" sentences using simple NLP heuristics.",
+            "D": "To provide a query-dependent explanation of why the document was retrieved."
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "COMP5425_W02_Text.pdf"
+        ]
+    },
+    {
+        "question": "According to the 'Context Text', what was the main motivation for Information Retrieval (IR) historically?",
+        "options": {
+            "A": "Multimedia search",
+            "B": "Web search",
+            "C": "Text search (libraries, etc.)",
+            "D": "Desktop search and personalization"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W03_Web.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is listed as a characteristic of the Web that distinguishes it from traditional IR tasks?",
+        "options": {
+            "A": "Data is always structured and homogeneous",
+            "B": "Queries are typically long and precise",
+            "C": "Finding the \"best possible results\" is a very specific goal",
+            "D": "Data is unstructured, heterogeneous, and semistructured"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "COMP5425_W03_Web.pdf"
+        ]
+    },
+    {
+        "question": "What category of user need, according to the 'Context Text', involves wanting to do something web-mediated, such as accessing a service or shopping?",
+        "options": {
+            "A": "Informational",
+            "B": "Navigational",
+            "C": "Transactional",
+            "D": "Exploratory"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W03_Web.pdf"
+        ]
+    },
+    {
+        "question": "The 'Context Text' mentions \"keyword stuffing\" as a simple form of search engine optimization (spam). What technique is described to make these repetitions invisible to human users?",
+        "options": {
+            "A": "Using misleading meta-tags",
+            "B": "Hiding text with colors matching the page background",
+            "C": "Serving fake content via cloaking",
+            "D": "Redirecting users via doorway pages"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W03_Web.pdf"
+        ]
+    },
+    {
+        "question": "What is cloaking described as in the 'Context Text'?",
+        "options": {
+            "A": "Creating numerous domains pointing to a target page",
+            "B": "Using hidden links or mutual admiration societies for link spamming",
+            "C": "Serving fake content to search engine spiders",
+            "D": "Submitting millions of queries via automated programs"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W03_Web.pdf"
+        ]
+    },
+    {
+        "question": "According to the 'Context Text', what is one important consideration for a crawler's URL frontier regarding interaction with web servers?",
+        "options": {
+            "A": "Ensuring constant high load on all servers",
+            "B": "Hitting a web server as frequently as possible",
+            "C": "Avoiding hitting any site too often",
+            "D": "Prioritizing hitting sites based on monetary value"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W03_Web.pdf"
+        ]
+    },
+    {
+        "question": "The 'Context Text' explains that when a fetched document is parsed, extracted links which are relative URLs must undergo what process?",
+        "options": {
+            "A": "Filtering based on robots.txt",
+            "B": "Duplicate URL elimination",
+            "C": "Normalization (expansion) into absolute URLs",
+            "D": "Addition to the document fingerprints"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W03_Web.pdf"
+        ]
+    },
+    {
+        "question": "What technique is mentioned in the 'Context Text' for verifying if a recently fetched web page is already present in the index to avoid further processing?",
+        "options": {
+            "A": "Robust link analysis",
+            "B": "Editorial intervention",
+            "C": "Using document fingerprints or shingles",
+            "D": "Linguistic analysis for family-friendly filtering"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W03_Web.pdf"
+        ]
+    },
+    {
+        "question": "According to the 'Context Text', what assumption does PageRank (in its basic form) make about a browser doing a random walk on web pages?",
+        "options": {
+            "A": "The browser always follows the most relevant link",
+            "B": "The browser jumps to a random page if the current page has no links",
+            "C": "The browser goes out of the current page along one of the links on that page, equiprobably",
+            "D": "The browser prefers pages with higher text density"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W03_Web.pdf"
+        ]
+    },
+    {
+        "question": "The 'Context Text' describes the HITS algorithm. What two sets of inter-related pages does HITS aim to find in response to a query?",
+        "options": {
+            "A": "Seed pages and Base set pages",
+            "B": "Root set pages and Base set pages",
+            "C": "Informational pages and Transactional pages",
+            "D": "Hub pages and Authority pages"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "COMP5425_W03_Web.pdf"
+        ]
+    },
+    {
+        "question": "What is the primary function of the Iris in the human eye according to the text?",
+        "options": {
+            "A": "To absorb approximately 8% of visible light",
+            "B": "To distribute discrete light receptors on the retina",
+            "C": "To control the amount of light entering the eye",
+            "D": "To image light from an object onto the retina"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W04_MM_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is the key difference in how a photo camera and the human eye achieve focus at various distances?",
+        "options": {
+            "A": "The camera varies the distance between the lens and imaging plane, while the eye varies the shape of the lens.",
+            "B": "The camera varies the shape of the lens, while the eye varies the distance between the lens and imaging plane.",
+            "C": "The camera uses a fixed focal length and the eye uses a variable focal length.",
+            "D": "The camera adjusts the aperture size, while the eye adjusts the pupil diameter."
+        },
+        "correct_answer": "A",
+        "source_pdfs": [
+            "COMP5425_W04_MM_JK.pdf"
+        ]
+    },
+    {
+        "question": "What phenomenon is used in the text to clearly demonstrate that perceived brightness is not a simple function of actual intensity?",
+        "options": {
+            "A": "Scotopic vision",
+            "B": "Spatial resolution",
+            "C": "The Mach band effect",
+            "D": "Gray-level resolution"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W04_MM_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the context text, what two processes are involved in converting continuous sensed data, such as the output of an imaging sensor, into a digital image?",
+        "options": {
+            "A": "Filtering and Enhancement",
+            "B": "Sampling and Quantization",
+            "C": "Scanning and Compression",
+            "D": "Integration and Projection"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W04_MM_JK.pdf"
+        ]
+    },
+    {
+        "question": "Which principal sensor arrangement, described in the text for digital image acquisition, is commonly used in most flatbed scanners?",
+        "options": {
+            "A": "Single imaging sensor",
+            "B": "Circular sensor strip",
+            "C": "Line sensor",
+            "D": "Array sensor"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W04_MM_JK.pdf"
+        ]
+    },
+    {
+        "question": "What is the result of the image sampling and quantization process in digital image representation?",
+        "options": {
+            "A": "A continuous voltage signal",
+            "B": "An analogue waveform",
+            "C": "A matrix of real numbers",
+            "D": "A projected 3D scene"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W04_MM_JK.pdf"
+        ]
+    },
+    {
+        "question": "Based on the text, how is the total number of bits (b) required to store a digitized image calculated, given M rows, N columns, and k bits per pixel (where L = 2^k gray levels)?",
+        "options": {
+            "A": "b = M + N + k",
+            "B": "b = M \u00d7 N \u00d7 k",
+            "C": "b = L \u00d7 k",
+            "D": "b = M \u00d7 N \u00d7 L"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W04_MM_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the comparison of CCD and CMOS sensors in the text, which type of sensor is generally described as having natural blooming immunity?",
+        "options": {
+            "A": "CCD sensors",
+            "B": "CMOS imagers",
+            "C": "Both types equally",
+            "D": "Neither type inherently has blooming immunity"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W04_MM_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the section on Temporal Sampling in the text, what is the minimum frame rate suggested to create an illusion of motion for the human visual system?",
+        "options": {
+            "A": "At least 10 frames per second",
+            "B": "At least 16 frames per second",
+            "C": "At least 20 frames per second",
+            "D": "At least 24 frames per second"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W04_MM_JK.pdf"
+        ]
+    },
+    {
+        "question": "What subjective human perception corresponds to the amplitude property of sound, as described in the text?",
+        "options": {
+            "A": "Frequency",
+            "B": "Timbre",
+            "C": "Loudness or volume",
+            "D": "Pitch"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W04_MM_JK.pdf"
+        ]
+    },
+    {
+        "question": "What is the primary focus of Content-based Retrieval as described in the text?",
+        "options": {
+            "A": "Focusing on explicit semantic concepts",
+            "B": "Relying mainly on textual annotations",
+            "C": "Utilizing visual features from multimedia content",
+            "D": "Prioritizing user feedback over automated analysis"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W05_CBIR01_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the text's comparison of text and image hierarchies, which of the following is considered a higher level element in the image hierarchy compared to a Pixel?",
+        "options": {
+            "A": "Character",
+            "B": "Phrase",
+            "C": "Region",
+            "D": "Word"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W05_CBIR01_JK.pdf"
+        ]
+    },
+    {
+        "question": "Which audio acoustic feature, as defined in the text, is estimated by analyzing short-time Fourier spectra?",
+        "options": {
+            "A": "Loudness",
+            "B": "Brightness",
+            "C": "Pitch",
+            "D": "Harmony"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W05_CBIR01_JK.pdf"
+        ]
+    },
+    {
+        "question": "Based on the text, which of the following is listed as an application of Audio Classification and Retrieval that assists in video analysis?",
+        "options": {
+            "A": "Music genre classification",
+            "B": "Audio database management",
+            "C": "Speech recognition",
+            "D": "Surveillance, such as silence detection"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "COMP5425_W05_CBIR01_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the section on Color Fundamentals, which of these is identified as an additive primary color?",
+        "options": {
+            "A": "Cyan",
+            "B": "Yellow",
+            "C": "Green",
+            "D": "Magenta"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W05_CBIR01_JK.pdf"
+        ]
+    },
+    {
+        "question": "Which color space is explicitly stated in the text as being perceptually uniform?",
+        "options": {
+            "A": "RGB",
+            "B": "CMYK",
+            "C": "HSV",
+            "D": "CIE L*a*b*"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W05_CBIR01_JK.pdf"
+        ]
+    },
+    {
+        "question": "One limitation of the color histogram noted in the text is its inability to represent which type of information?",
+        "options": {
+            "A": "Color distribution",
+            "B": "Quantized bins",
+            "C": "Spatial information",
+            "D": "Pixel count per color"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W05_CBIR01_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the text's summary of texture descriptions, which type is described as identifying structural primitives and their placement rules, being most effective for very regular textures?",
+        "options": {
+            "A": "Statistical texture descriptions",
+            "B": "Hybrid texture descriptions",
+            "C": "Structural texture descriptions",
+            "D": "Gabor filter features"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W05_CBIR01_JK.pdf"
+        ]
+    },
+    {
+        "question": "The text mentions that the use of shape features for image retrieval has been limited primarily due to the difficulty in achieving what process robustly and accurately?",
+        "options": {
+            "A": "Feature extraction",
+            "B": "Image segmentation",
+            "C": "Similarity measurement",
+            "D": "Indexing techniques"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W05_CBIR01_JK.pdf"
+        ]
+    },
+    {
+        "question": "The set of seven invariant moments discussed in the text are described as being invariant to which combination of transformations?",
+        "options": {
+            "A": "Translation, rotation, and scale change",
+            "B": "Compression artifacts and noise",
+            "C": "Illumination and viewing angle",
+            "D": "Spatial relationships and texture"
+        },
+        "correct_answer": "A",
+        "source_pdfs": [
+            "COMP5425_W05_CBIR01_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what role does adding syntax play in creating a syntactic representation of an object?",
+        "options": {
+            "A": "It simplifies the extraction of primitive structural symbols.",
+            "B": "It reduces the number of primitive structural symbols required.",
+            "C": "It allows for a unique representation and interpretation of the symbol string.",
+            "D": "It transforms the symbolic representation back and forth into the syntactic representation."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W06_CBIR02_JK.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is a key property of the Segment Tree representation according to the text?",
+        "options": {
+            "A": "It is invariant to affine transformation.",
+            "B": "It is sensitive to segmentation results.",
+            "C": "It is invariant to translation, rotation, and scaling.",
+            "D": "Its nodes lack semantic meaning."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W06_CBIR02_JK.pdf"
+        ]
+    },
+    {
+        "question": "What is the primary goal described for the deformation process in Elastic Template Matching?",
+        "options": {
+            "A": "To build a modal template for each prototype object.",
+            "B": "To reduce the number of discrete parameters modeling the deformation.",
+            "C": "To achieve a reasonable fitting with the target image.",
+            "D": "To analyze the similarity between the source object and a modal template."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W06_CBIR02_JK.pdf"
+        ]
+    },
+    {
+        "question": "In the context of 2D String representation, what does the operator '<' specifically denote?",
+        "options": {
+            "A": "An edge-to-edge relationship.",
+            "B": "Being at approximately the same spatial location.",
+            "C": "The left-right relationship in the u string and below-above in the v string.",
+            "D": "A global spatial relationship like disjoining."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W06_CBIR02_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, how does the 2D G-String representation extend the spatial relationship compared to a standard 2D String?",
+        "options": {
+            "A": "By minimizing the number of cutting objects.",
+            "B": "By using Minimum Boundary Ellipse (MBE) instead of Rectangle.",
+            "C": "By extending spatial operators to define local (Rl) and global (Rg) relationships.",
+            "D": "By making the representation invariant to rotation."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W06_CBIR02_JK.pdf"
+        ]
+    },
+    {
+        "question": "What is identified as a significant drawback of using the Distance Matrix for indexing?",
+        "options": {
+            "A": "It requires complex graph matching algorithms.",
+            "B": "It offers only constant access time.",
+            "C": "It is not flexible and scalable, especially for adding new items or queries outside the database.",
+            "D": "It is unable to offer any form of similarity measure."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W06_CBIR02_JK.pdf"
+        ]
+    },
+    {
+        "question": "What is the primary purpose of Inter-normalization in the context of feature combination?",
+        "options": {
+            "A": "To normalize feature values within a single feature vector.",
+            "B": "To perform dimension reduction on the combined feature vector.",
+            "C": "To ensure equal emphasis is placed on each individual similarity value within the overall similarity.",
+            "D": "To calculate the minimum and maximum values for each feature dimension."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W06_CBIR02_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is an advantage of the Quadratic-Form (QF) distance compared to the Minkowski-Form (MF) distance?",
+        "options": {
+            "A": "QF distance is a generalization of the Euclidean distance.",
+            "B": "QF distance assumes each feature dimension is independent.",
+            "C": "QF distance can lead to perceptually more desirable results by considering cross similarity between feature dimensions.",
+            "D": "QF distance is simpler to compute as it does not require a similarity matrix."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W06_CBIR02_JK.pdf"
+        ]
+    },
+    {
+        "question": "Based on the text, which of the following is a key motivation for employing Relevance Feedback techniques in multimedia retrieval?",
+        "options": {
+            "A": "To eliminate the need for initial low-level feature extraction.",
+            "B": "To make the retrieval process more flexible and adaptive to users' subjective and task-dependent perceptions.",
+            "C": "To guarantee that the first set of retrieved results contains all relevant items.",
+            "D": "To reduce the computational cost of similarity measurement."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W06_CBIR02_JK.pdf"
+        ]
+    },
+    {
+        "question": "The Average Normalized Modified Retrieval Rank (ANMRR) is a performance evaluation measure recommended by which standard or organization?",
+        "options": {
+            "A": "ISO",
+            "B": "JPEG",
+            "C": "MPEG-7",
+            "D": "IEEE"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W06_CBIR02_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the context text, which of the following is explicitly listed as a primary category of social media platforms?",
+        "options": {
+            "A": "E-commerce",
+            "B": "Gaming",
+            "C": "Real Estate",
+            "D": "Music Streaming"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W07_Social.pdf"
+        ]
+    },
+    {
+        "question": "What characteristic, typically associated with sensor networks, does the context text apply to social media?",
+        "options": {
+            "A": "Physical distribution",
+            "B": "Autonomous data collection",
+            "C": "Temperature monitoring",
+            "D": "No maintenance requirement"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W07_Social.pdf"
+        ]
+    },
+    {
+        "question": "The context text mentions specific 'Rich applications of social media'. Which of the following is listed as one such application?",
+        "options": {
+            "A": "Predicting stock market prices",
+            "B": "Tracking political activity and campaigns",
+            "C": "Identifying fraudulent transactions",
+            "D": "Recommending job openings"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W07_Social.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following academic journals is explicitly mentioned in the context text as being relevant to social media research?",
+        "options": {
+            "A": "Journal of Machine Learning Research",
+            "B": "IEEE Transactions on Computational Social Systems",
+            "C": "ACM Transactions on Graphics",
+            "D": "International Journal of Human-Computer Studies"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W07_Social.pdf"
+        ]
+    },
+    {
+        "question": "In the study tracking mental health signals during COVID-19 using Australian geotagged tweets, what specific tool was used for Sentiment Analysis?",
+        "options": {
+            "A": "NRCLex",
+            "B": "sentiment140",
+            "C": "VADER",
+            "D": "Face++ API"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W07_Social.pdf"
+        ]
+    },
+    {
+        "question": "Based on the definition provided in the context, what foundational principle does social multimedia build upon?",
+        "options": {
+            "A": "Cloud Computing",
+            "B": "Artificial Intelligence",
+            "C": "Web 2.0",
+            "D": "Big Data Analytics"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W07_Social.pdf"
+        ]
+    },
+    {
+        "question": "The context text identifies several key challenges for understanding users from social media data. Which of the following is mentioned as one of these challenges?",
+        "options": {
+            "A": "Lack of user engagement",
+            "B": "Homogeneous data forms",
+            "C": "Missing attributes",
+            "D": "Limited social graph size"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W07_Social.pdf"
+        ]
+    },
+    {
+        "question": "What is the claimed accuracy for estimating the real location of the user and scene in dense areas using the robust and accurate mobile visual localization method described in the text?",
+        "options": {
+            "A": "Error less than 5m",
+            "B": "Error less than 15m",
+            "C": "Error less than 50m",
+            "D": "Error less than 100m"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W07_Social.pdf"
+        ]
+    },
+    {
+        "question": "In the section discussing Social Media for Social Good, which specific topic is illustrated with data showing youth exposure percentages by gender and alcohol type?",
+        "options": {
+            "A": "Urban Sensing",
+            "B": "Drug Use Patterns",
+            "C": "Drinking Behavior",
+            "D": "Cyberbullying Detection"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W07_Social.pdf"
+        ]
+    },
+    {
+        "question": "The MuMiN dataset, mentioned in the context, is described as a large-scale dataset primarily focused on what aspect of social networks?",
+        "options": {
+            "A": "User profile prediction",
+            "B": "Fact-Checked Misinformation",
+            "C": "Cross-platform user interaction",
+            "D": "Geospatial-temporal data analysis"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W07_Social.pdf"
+        ]
+    },
+    {
+        "question": "In the context of multimedia retrieval, what challenge does the \"Semantic Gap\" primarily refer to?",
+        "options": {
+            "A": "The difficulty in storing very large image and video datasets.",
+            "B": "The difference between low-level visual features used by computers and the high-level human understanding of content.",
+            "C": "The problem of retrieving multimedia across different cultural or language barriers.",
+            "D": "The lack of standardized formats for multimedia data."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W08_LargeScale.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is listed in the text as an approach used for image annotation?",
+        "options": {
+            "A": "Neural Network models",
+            "B": "Support Vector Machine models",
+            "C": "Word co-occurrence model",
+            "D": "Graph Convolutional Networks"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W08_LargeScale.pdf"
+        ]
+    },
+    {
+        "question": "According to the \"Tokenization\" section of the text, which of the following features is used to represent image segments (blobs)?",
+        "options": {
+            "A": "Texture",
+            "B": "3D Depth",
+            "C": "Audio Data",
+            "D": "Geometric Layout"
+        },
+        "correct_answer": "A",
+        "source_pdfs": [
+            "COMP5425_W08_LargeScale.pdf"
+        ]
+    },
+    {
+        "question": "The Corel Data Set, consisting of 160 CD's, was used for experiments described in the text related to:",
+        "options": {
+            "A": "Evaluating internet connection speeds for multimedia streaming.",
+            "B": "Providing data for training and testing image annotation models.",
+            "C": "Analyzing the popularity of different multimedia applications.",
+            "D": "Developing new algorithms for multimedia compression."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W08_LargeScale.pdf"
+        ]
+    },
+    {
+        "question": "Which characteristic is mentioned in the text as typical of Internet multimedia?",
+        "options": {
+            "A": "It is mostly static, with infrequent updates.",
+            "B": "It is primarily consumed by a small, niche audience.",
+            "C": "It is huge and increasing very rapidly.",
+            "D": "It consists mainly of text-based documents."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W08_LargeScale.pdf"
+        ]
+    },
+    {
+        "question": "Based on the \"Synonyms\" slide in the text, which term is considered a synonym for \"(Automatic) Annotation\"?",
+        "options": {
+            "A": "Query Expansion",
+            "B": "Content Filtering",
+            "C": "Concept Detection",
+            "D": "Data Clustering"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W08_LargeScale.pdf"
+        ]
+    },
+    {
+        "question": "The Correlative Multi-Label Learning (CML) method is presented in the text as which paradigm for Automated Annotation?",
+        "options": {
+            "A": "The first paradigm focused on individual concept detection.",
+            "B": "The second paradigm using fusion-based strategies.",
+            "C": "The third paradigm integrating concept detection and correlation modeling.",
+            "D": "A preliminary paradigm replaced by more advanced methods."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W08_LargeScale.pdf"
+        ]
+    },
+    {
+        "question": "In the experiments mentioned using the TRECVID 2005 dataset, Correlative Multi-Label Learning (CML) showed an improvement in Mean Average Precision (MAP) over the IndSVM approach by approximately what percentage?",
+        "options": {
+            "A": "10%",
+            "B": "14%",
+            "C": "17%",
+            "D": "25%"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W08_LargeScale.pdf"
+        ]
+    },
+    {
+        "question": "What is listed as a characteristic problem of social tags in the context text?",
+        "options": {
+            "A": "They are always perfectly relevant.",
+            "B": "They tend to be overly precise.",
+            "C": "They can be noisy, ambiguous, and incomplete.",
+            "D": "They are difficult to share among users."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W08_LargeScale.pdf"
+        ]
+    },
+    {
+        "question": "According to the text's description of SIFT, what is the typical dimension size of a SIFT descriptor?",
+        "options": {
+            "A": "64 dimensions",
+            "B": "128 dimensions",
+            "C": "256 dimensions",
+            "D": "512 dimensions"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W08_LargeScale.pdf"
+        ]
+    },
+    {
+        "question": "What are the three primary categories of recommendation algorithms listed at the beginning of the Context Text?",
+        "options": {
+            "A": "User-based, Item-based, Model-based",
+            "B": "Explicit, Implicit, Hybrid",
+            "C": "Collaborative filtering, Content-based, Learning based",
+            "D": "Personalised, Opinion-based, Knowledge-based"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W9_RecSys_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, what is the core idea behind Collaborative Filtering?",
+        "options": {
+            "A": "Recommending items based on their attributes or content.",
+            "B": "Using explicit user requirements to find suitable items.",
+            "C": "Recommending items rated highly by users with similar interests.",
+            "D": "Predicting ratings based on latent features of users and items."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W9_RecSys_JK.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is listed as a benefit of Recommender Systems for customers or users in the Context Text?",
+        "options": {
+            "A": "Increase sales conversions.",
+            "B": "Narrow down the set of choices.",
+            "C": "Obtain more knowledge about customers.",
+            "D": "Opportunities for promotion."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W9_RecSys_JK.pdf"
+        ]
+    },
+    {
+        "question": "The Context Text mentions several problems with Collaborative Filtering. Which of the following is identified as a difficulty where it's hard to find users who have rated the same items due to a large number of items?",
+        "options": {
+            "A": "First Rater",
+            "B": "Popularity Bias",
+            "C": "Cold Start",
+            "D": "Sparsity"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "COMP5425_W9_RecSys_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the Context Text, which technique is mentioned as a solution for Cold-Start problems in Collaborative Filtering?",
+        "options": {
+            "A": "Explicit User Requirements",
+            "B": "Model-based approaches only",
+            "C": "Matrix Factorization",
+            "D": "Increased significance weighting"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W9_RecSys_JK.pdf"
+        ]
+    },
+    {
+        "question": "What is the core idea explored by Matrix Factorization techniques for recommender systems, as described in the Context Text?",
+        "options": {
+            "A": "Directly using the rating matrix to find similar users.",
+            "B": "Exploiting relationships between items computed offline.",
+            "C": "Identifying items similar to those a user has rated based on content.",
+            "D": "Exploring latent features of the rating matrix of users and items."
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "COMP5425_W9_RecSys_JK.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is listed as a benefit of Content-based Recommender Systems in the Context Text?",
+        "options": {
+            "A": "Requires a user community with critical mass.",
+            "B": "Independent from other users.",
+            "C": "Avoids the filter bubble problem.",
+            "D": "Incorporating external information is easy."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W9_RecSys_JK.pdf"
+        ]
+    },
+    {
+        "question": "The \"filter bubble problem\" is mentioned as a disadvantage of which type of Recommender System in the Context Text?",
+        "options": {
+            "A": "Collaborative Filtering",
+            "B": "Knowledge-based RecSys",
+            "C": "Context-aware RecSys",
+            "D": "Content-based RecSys"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "COMP5425_W9_RecSys_JK.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is explicitly listed as a type of contextual information that can influence recommendations in Context-aware Recommender Systems?",
+        "options": {
+            "A": "User's purchase history",
+            "B": "Item attributes",
+            "C": "User's average rating",
+            "D": "User's mood"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "COMP5425_W9_RecSys_JK.pdf"
+        ]
+    },
+    {
+        "question": "The evaluation of Recommender Systems can be viewed from different perspectives. Which perspective focuses on predicting to what degree users will like an item?",
+        "options": {
+            "A": "Retrieval perspective",
+            "B": "Interaction perspective",
+            "C": "Prediction perspective",
+            "D": "Conversion perspective"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W9_RecSys_JK.pdf"
+        ]
+    },
+    {
+        "question": "According to the context text, what are the main goals of summarization?",
+        "options": {
+            "A": "Analyze data patterns and filter unwanted information",
+            "B": "Classify content based on type and extract keywords",
+            "C": "Distill the essence and provide a compact yet informative representation",
+            "D": "Compress data for efficient storage and transmission"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W10_Summ.pdf"
+        ]
+    },
+    {
+        "question": "According to the context text, approximately how many photos had been taken since Daguerre captured Boulevard du Temple 174 years prior?",
+        "options": {
+            "A": "6 billion",
+            "B": "100 billion",
+            "C": "3.5 trillion",
+            "D": "690 million"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W10_Summ.pdf"
+        ]
+    },
+    {
+        "question": "The TextRank algorithm described in the text formulates the problem of identifying important words or sentences using what kind of solution?",
+        "options": {
+            "A": "Rule-based solution",
+            "B": "Statistical solution",
+            "C": "Graph-based solution",
+            "D": "Machine learning solution"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W10_Summ.pdf"
+        ]
+    },
+    {
+        "question": "The LexRank algorithm, as described in the text, operates at which level for text summarization and utilizes what measure for sentence similarity?",
+        "options": {
+            "A": "Keyword level, using Euclidean distance",
+            "B": "Sentence level, using Cosine similarity",
+            "C": "Document level, using Jaccard index",
+            "D": "Paragraph level, using Edit distance"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W10_Summ.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, which of the following are key objectives in the Video Summarization Problem regarding representativeness and redundancy?",
+        "options": {
+            "A": "Minimized Representativeness and Maximized Redundancy",
+            "B": "Maximized Representativeness and Minimized Redundancy",
+            "C": "Balanced Representativeness and Average Redundancy",
+            "D": "Irrelevant to Representativeness or Redundancy"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W10_Summ.pdf"
+        ]
+    },
+    {
+        "question": "The context text mentions a limitation of utilizing global visual features (like color and texture over the entire frame) in video summarization. What is this stated limitation?",
+        "options": {
+            "A": "They are too slow to compute in real-time applications.",
+            "B": "They struggle to capture audio and semantic information.",
+            "C": "Subtle yet important details could be swallowed by global features.",
+            "D": "They are not invariant to changes in lighting conditions."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W10_Summ.pdf"
+        ]
+    },
+    {
+        "question": "In the keyframe selection process described, the influence of a frame (fi) is calculated as a balance between which two specific factors related to keypoints?",
+        "options": {
+            "A": "The total number of keypoints and their scale",
+            "B": "The location of keypoints and their rotation",
+            "C": "Coverage (C(fi)) and Redundancy (R(fi))",
+            "D": "Saliency score and Clustering membership"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W10_Summ.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, implementing the Fast Solution for Keypoint Matching using Randomized kd-trees resulted in approximately what speed improvement compared to previous methods?",
+        "options": {
+            "A": "5 times faster",
+            "B": "10 times faster",
+            "C": "50 times faster",
+            "D": "100 times faster"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "COMP5425_W10_Summ.pdf"
+        ]
+    },
+    {
+        "question": "The Bag-of-Importance (BoI) model is presented as a new paradigm for video summarization focusing on which two main steps?",
+        "options": {
+            "A": "Identify global features and Cluster frames",
+            "B": "Segment video shots and Classify content",
+            "C": "Identify invariant and repeatable patterns, then eliminate redundancy",
+            "D": "Reconstruct video from keyframes and Enhance visual quality"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W10_Summ.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is listed in the text under the 'Applications' section for information summarization?",
+        "options": {
+            "A": "Face Recognition",
+            "B": "LifeLogging",
+            "C": "Medical Imaging Analysis",
+            "D": "Automated Translation"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W10_Summ.pdf"
+        ]
+    },
+    {
+        "question": "According to the context text, which system is cited as one of the earliest examples of a natural language processing system?",
+        "options": {
+            "A": "BERT",
+            "B": "Siri",
+            "C": "ELIZA",
+            "D": "ChatGPT"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W11_LargeModel_and_Retrieval.pdf"
+        ]
+    },
+    {
+        "question": "What is a key difference between traditional search and conversational search according to the context text?",
+        "options": {
+            "A": "Traditional search uses longer context",
+            "B": "Conversational search relies on keywords",
+            "C": "Traditional search handles complex queries",
+            "D": "Conversational search uses natural language dialogue interaction"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "COMP5425_W11_LargeModel_and_Retrieval.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is listed as a key characteristic of Conversational Retrieval in the context text?",
+        "options": {
+            "A": "Single-turn interaction",
+            "B": "Limited context handling",
+            "C": "Multi-turn",
+            "D": "Dependence on short phrases"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W11_LargeModel_and_Retrieval.pdf"
+        ]
+    },
+    {
+        "question": "According to the context text, which of the following is a challenge in Conversational Retrieval?",
+        "options": {
+            "A": "Predictability of Finite-State Machines",
+            "B": "Generating high-quality search results without ambiguity",
+            "C": "Handling mixed task and chat intent",
+            "D": "Simplicity of template-based NLG"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W11_LargeModel_and_Retrieval.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is listed as a core component of a Conversational Retrieval system in the context text?",
+        "options": {
+            "A": "User Feedback Analysis",
+            "B": "Document Indexing",
+            "C": "Query Reformulation",
+            "D": "Evaluation Metrics"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W11_LargeModel_and_Retrieval.pdf"
+        ]
+    },
+    {
+        "question": "Which technique is mentioned in the context text as being used for Dialogue State Tracking within Machine Learning models for Dialogue Management?",
+        "options": {
+            "A": "Finite-State Machines",
+            "B": "Part-of-Speech Tagging",
+            "C": "LSTM/RNN",
+            "D": "Template-Based NLG"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W11_LargeModel_and_Retrieval.pdf"
+        ]
+    },
+    {
+        "question": "According to the context text, what is the primary purpose of Query Reformulation in Conversational Retrieval?",
+        "options": {
+            "A": "To generate natural language responses",
+            "B": "To determine if a query needs clarification",
+            "C": "To rewrite vague or incomplete user queries",
+            "D": "To integrate external knowledge sources"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W11_LargeModel_and_Retrieval.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is listed as a technique for Query Rewriting in the context text?",
+        "options": {
+            "A": "Query Expansion",
+            "B": "Pseudo relevance feedback",
+            "C": "LLM",
+            "D": "Named Entity Recognition"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W11_LargeModel_and_Retrieval.pdf"
+        ]
+    },
+    {
+        "question": "What is one stated importance of Search Clarification in Conversational Retrieval, according to the context text?",
+        "options": {
+            "A": "Increasing system scalability",
+            "B": "Automating relevance judgments",
+            "C": "Disambiguating vague or ambiguous queries",
+            "D": "Reducing computational cost"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "COMP5425_W11_LargeModel_and_Retrieval.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is listed as a benefit of using Retrieval-Augmented Generation (RAG) in the context text?",
+        "options": {
+            "A": "Increased computational expense",
+            "B": "Reduced hallucinations",
+            "C": "Difficulty in controlling output",
+            "D": "Requirement for extensive fine-tuning"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "COMP5425_W11_LargeModel_and_Retrieval.pdf"
+        ]
+    }
+]

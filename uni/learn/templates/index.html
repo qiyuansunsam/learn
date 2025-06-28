@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MCQ Generator & Quiz</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Your custom styles (can override Bootstrap or add specifics) -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}"> 
+    <style>
+        /* Custom styles for better spacing or specific tweaks */
+        body { padding-top: 20px; padding-bottom: 20px; background-color: #f8f9fa; }
+        .section { background-color: #fff; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        h1, h2, h3 { color: #343a40; }
+        .file-selector-container { border: 1px solid #dee2e6; padding: 15px; border-radius: 5px; margin-bottom: 15px; background-color: #f8f9fa;}
+        #context-file-selector label { display: block; margin-bottom: 5px; font-weight: normal;}
+        #context-file-selector input[type="checkbox"] { margin-right: 8px; }
+        .danger-btn { background-color: #dc3545; border-color: #dc3545; } /* Ensure custom danger button retains styling if needed */
+        .danger-btn:hover { background-color: #c82333; border-color: #bd2130; }
+        #loading-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0,0,0,0.7); z-index: 1050; flex-direction: column; align-items: center; justify-content: center; }
+        #loading-overlay .spinner-border { width: 3rem; height: 3rem; }
+        #loading-overlay p { color: white; margin-top: 10px; font-size: 1.1em;}
+        .quiz-section .form-check { margin-bottom: 0.5rem; } /* Spacing for radio options */
+        .quiz-section .form-check-label.correct-option { color: green; font-weight: bold; }
+        .quiz-section .form-check-label.incorrect-option-selected { color: red; text-decoration: line-through; }
+        .feedback-correct { color: green; font-weight: bold; }
+        .feedback-incorrect { color: red; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="text-center mb-4">
+            <h1>MCQ Generator & Quiz</h1>
+        </div>
+
+        <!-- Topic Selection -->
+        <div class="section topic-section card shadow-sm mb-4">
+            <div class="card-body">
+                <div class="row g-3 align-items-center">
+                    <div class="col-md-auto">
+                        <label for="topic-select" class="col-form-label">Select Topic:</label>
+                    </div>
+                    <div class="col-md">
+                        <select id="topic-select" class="form-select">
+                            {% if topics %}
+                                {% for topic in topics %}
+                                    <option value="{{ topic }}" {% if topic == current_topic %}selected{% endif %}>{{ topic }}</option>
+                                {% endfor %}
+                            {% else %}
+                                <option value="" disabled selected>No topics found</option>
+                            {% endif %}
+                        </select>
+                    </div>
+                    <div class="col-md-auto">
+                        <button id="add-topic-btn" class="btn btn-success">Add New Topic</button>
+                    </div>
+                    <div class="col-md-auto">
+                        <button id="clear-history-btn" class="btn btn-danger">Clear Topic History</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="section actions-section card shadow-sm mb-4">
+            <div class="card-body d-flex flex-column"> 
+                <h2 class="card-title">Actions</h2>
+                
+                <div class="mb-3">
+                    <label class="form-label fw-bold">Select Context PDF(s) from Topic Folder:</label>
+                    <div id="context-file-selector" class="p-2 border rounded bg-light" style="overflow-y: auto; min-height: 150px; max-height: 250px;"> {/* Adjusted height constraints */}
+                        <p class="text-muted">Select a topic to see available files.</p>
+                    </div>
+                </div>
+
+                <button id="format-examples-btn" class="btn btn-info mb-3 w-100">Format Examples to Bank</button>
+
+                <div class="generate-controls border p-3 rounded">
+                    <h3 class="h5">Generate New MCQs</h3>
+                    <div class="row g-3 align-items-center mt-2">
+                        <div class="col-auto">
+                            <label for="num-questions" class="col-form-label">Number:</label>
+                        </div>
+                        <div class="col-auto">
+                            <input type="number" id="num-questions" class="form-control" value="5" min="1" max="20" style="width: 80px;">
+                        </div>
+                        <div class="col-auto">
+                            <button id="generate-mcq-btn" class="btn btn-primary">Generate from Selected PDFs</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Quiz Area -->
+        <div class="section quiz-section card shadow-sm mb-4" id="quiz-area" style="display: none;">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h2 class="card-title mb-0">Quiz Mode</h2>
+                    <!-- Button to toggle PDF filter visibility can be added here if complex -->
+                </div>
+                 <!-- PDF Filter Section -->
+                <div id="quiz-pdf-filter-container" class="mt-3 mb-3 p-3 border rounded bg-light" style="display: none;">
+                    <h5 class="h6">Filter Questions by Source PDF:</h5>
+                    {_comment_ Checkboxes will be populated here by JS _}
+                    <p class="text-muted small mt-1">Select PDFs to filter questions. If none selected, all questions for the topic are shown.</p>
+                </div>
+                <!-- End PDF Filter Section -->
+                <div id="question-container" class="mb-3">
+                    <p id="question-text" class="lead">Question text will appear here.</p>
+                    <div id="options-container" class="mb-3"></div>
+                    <div class="d-flex justify-content-end mb-2">
+                        <button id="submit-answer-btn" class="btn btn-success">Submit Answer</button>
+                    </div>
+                    <p id="feedback-text" class="mt-2"></p>
+                </div>
+                <div class="navigation-buttons d-flex justify-content-between align-items-center">
+                    <button id="prev-question-btn" class="btn btn-outline-secondary" disabled>Previous</button>
+                    <span id="question-counter" class="text-muted">Question x of y</span>
+                    <button id="next-question-btn" class="btn btn-outline-secondary" disabled>Next</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Display Areas -->
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="section display-section card shadow-sm h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Question Bank (Raw)</h2>
+                        <pre id="question-bank-display" class="bg-light p-2 border rounded" style="max-height: 300px; overflow-y: auto;">Select a topic to view the question bank.</pre>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="section display-section card shadow-sm h-100">
+                    <div class="card-body">
+                        <h2 class="card-title">Log</h2>
+                        <pre id="log-display" class="bg-light p-2 border rounded" style="max-height: 300px; overflow-y: auto;">Application log will appear here.</pre>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loading Overlay Removed -->
+
+    <!-- Bootstrap JS Bundle (Popper.js included) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

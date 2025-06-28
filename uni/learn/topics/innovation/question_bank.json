@@ -1,0 +1,262 @@
+[
+    {
+        "question": "According to the text, what is the definition of an innovation system?",
+        "options": {
+            "A": "A closed group of companies competing for market share.",
+            "B": "An open network of organizations interacting within regulatory framework conditions.",
+            "C": "A government body responsible for funding research projects.",
+            "D": "A university department focused on technology transfer."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "11_INFO4444_Innovation ecosystems.pdf"
+        ]
+    },
+    {
+        "question": "What are the three main components that collectively function within an innovation system, as listed in the text?",
+        "options": {
+            "A": "Products, Services, and Customers",
+            "B": "Investors, Employees, and Managers",
+            "C": "Innovation activities, Networks, and Framework conditions",
+            "D": "Research, Development, and Commercialization"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "11_INFO4444_Innovation ecosystems.pdf"
+        ]
+    },
+    {
+        "question": "The text highlights that the two inner circles of the Australian Innovation System outcomes include which of the following?",
+        "options": {
+            "A": "Increased market capitalization and global expansion.",
+            "B": "Creation of new technology/knowledge and adoption of existing technology/knowledge.",
+            "C": "Government funding levels and university publication rates.",
+            "D": "Business competition and international trade balances."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "11_INFO4444_Innovation ecosystems.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is the *main* way that innovation impacts the economy?",
+        "options": {
+            "A": "Increased foreign direct investment.",
+            "B": "Higher consumer spending.",
+            "C": "Productivity growth.",
+            "D": "Reduced unemployment rates."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "11_INFO4444_Innovation ecosystems.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is NOT listed as a phase in the innovation journey in the text?",
+        "options": {
+            "A": "Growth Phase",
+            "B": "Investment Phase",
+            "C": "Scale-Up Phase",
+            "D": "Startup Phase"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "11_INFO4444_Innovation ecosystems.pdf"
+        ]
+    },
+    {
+        "question": "The Triple Helix Model conceptualizes innovation as the result of interactions between three main institutional spheres. Which of these spheres is responsible for translating knowledge into products, services, and jobs and driving market-oriented innovation, according to the text?",
+        "options": {
+            "A": "University",
+            "B": "Government",
+            "C": "Industry",
+            "D": "Non-profit Organizations"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "11_INFO4444_Innovation ecosystems.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, a key characteristic of Singapore's innovation approach is described as \"Government-as-startup-founder.\" This refers to which of the following?",
+        "options": {
+            "A": "The government directly creating new startup companies.",
+            "B": "The government providing free office space to startups.",
+            "C": "The government adopting agile policy labs and real-time regulatory sandboxes.",
+            "D": "The government purchasing products and services only from startups."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "11_INFO4444_Innovation ecosystems.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is listed as one of the reasons why Silicon Valley is a successful innovation ecosystem?",
+        "options": {
+            "A": "Low cost of living and operating.",
+            "B": "Limited competition allowing startups to flourish.",
+            "C": "Strong research-driven universities with endowments.",
+            "D": "A focus primarily on large, established corporations."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "11_INFO4444_Innovation ecosystems.pdf"
+        ]
+    },
+    {
+        "question": "How does the text describe the perspective on failed startups within the Silicon Valley ecosystem?",
+        "options": {
+            "A": "They are seen as a stigma that prevents future funding.",
+            "B": "They are considered personal losses for the founders.",
+            "C": "They are reframed as progress and lessons learned that fuel future success.",
+            "D": "They indicate a fundamental flaw in the ecosystem."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "11_INFO4444_Innovation ecosystems.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following organizations is explicitly listed in the text as a government-funded research organisation within Australia's innovation ecosystem?",
+        "options": {
+            "A": "Atlassian",
+            "B": "CSIRO",
+            "C": "Stone & Chalk",
+            "D": "Accelerators"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "11_INFO4444_Innovation ecosystems.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, why is \"Scientific Management\" (Taylorism) considered not suitable for creative work with many unknowns?",
+        "options": {
+            "A": "It focuses heavily on individual compensation based on performance.",
+            "B": "It is designed for repetitive work with known function like production.",
+            "C": "It mandates continuous measurement of task performance.",
+            "D": "It standardises work into separate, distinct tasks."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "12_INFO4444_Organizational Culture and Structure for Innovation and Judging IT Innovation.pdf"
+        ]
+    },
+    {
+        "question": "In the ideas presented from Steven Johnson's \"Where good ideas come from,\" what does the concept of a \"Slow Hunch\" describe?",
+        "options": {
+            "A": "The rapid, intuitive realization of a breakthrough idea.",
+            "B": "A process where multiple small ideas combine instantly to form a larger one.",
+            "C": "A significant idea that gradually becomes clear over an extended duration.",
+            "D": "The sudden flash of insight that leads to an innovation."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "12_INFO4444_Organizational Culture and Structure for Innovation and Judging IT Innovation.pdf"
+        ]
+    },
+    {
+        "question": "The text identifies several cultural intervention points for a digital age. Which of the following actions is associated with \"Busting silos\"?",
+        "options": {
+            "A": "Encouraging different departments to compete fiercely for resources.",
+            "B": "Reallocating resources quickly between different organizational units.",
+            "C": "Employees being reluctant to share information or collaborate across functions.",
+            "D": "Concentrating decision-making authority at the top level of the organization."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "12_INFO4444_Organizational Culture and Structure for Innovation and Judging IT Innovation.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, how is the structural dimension of \"Formalisation\" defined?",
+        "options": {
+            "A": "The concentration of specific activities in a central department.",
+            "B": "The extent to which jobs are specialized into separate tasks.",
+            "C": "The use of standardized rules and procedures to guide employee behavior.",
+            "D": "The degree to which employees are cross-trained in multiple roles."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "12_INFO4444_Organizational Culture and Structure for Innovation and Judging IT Innovation.pdf"
+        ]
+    },
+    {
+        "question": "The text contrasts Mechanistic and Organic organizational structures. Which characteristic is typical of an Organic structure?",
+        "options": {
+            "A": "High standardisation of activities.",
+            "B": "Priority given to operational efficiency and reliability.",
+            "C": "Emphasis on creativity and experimentation.",
+            "D": "Minimal variation in processes and outcomes."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "12_INFO4444_Organizational Culture and Structure for Innovation and Judging IT Innovation.pdf"
+        ]
+    },
+    {
+        "question": "Based on the Google case study, what is the purpose of Google's \"20% time\" policy for its employees?",
+        "options": {
+            "A": "To dedicate one day a week to mandatory team-building exercises.",
+            "B": "To allow employees to spend a fifth of their time working on projects they believe will most benefit Google.",
+            "C": "To require employees to spend 20% of their time reporting on project progress.",
+            "D": "To allocate 20% of the company's annual profits to employee bonuses."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "12_INFO4444_Organizational Culture and Structure for Innovation and Judging IT Innovation.pdf"
+        ]
+    },
+    {
+        "question": "How does the text characterize Google's \"Solve for X,\" also referred to as the \"Moonshot factory\"?",
+        "options": {
+            "A": "A venture capital fund focused on external startups.",
+            "B": "A research lab dedicated to incremental improvements of core products.",
+            "C": "A team that focuses on ideas at the intersection of significant problems, radical solutions, and breakthrough technology.",
+            "D": "A program designed to standardize engineering practices across the company."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "12_INFO4444_Organizational Culture and Structure for Innovation and Judging IT Innovation.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, which of the following is NOT listed as one of the typical judging criteria categories for IT innovation?",
+        "options": {
+            "A": "Technology",
+            "B": "Market Research",
+            "C": "Feasibility",
+            "D": "Design"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "12_INFO4444_Organizational Culture and Structure for Innovation and Judging IT Innovation.pdf"
+        ]
+    },
+    {
+        "question": "As described in the text, a typical judging panel for IT innovation should ideally include a diverse pool of experts from which three main areas?",
+        "options": {
+            "A": "Legal, Financial, and Marketing.",
+            "B": "Manufacturing, Logistics, and Sales.",
+            "C": "Academia, Government, and Non-profit.",
+            "D": "Industry, Business, and Academia."
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "12_INFO4444_Organizational Culture and Structure for Innovation and Judging IT Innovation.pdf"
+        ]
+    },
+    {
+        "question": "In the Microsoft Imagine Cup judging criteria detailed in the text, what is the percentage weighting assigned specifically to the \"Inclusion\" criterion?",
+        "options": {
+            "A": "40%",
+            "B": "30%",
+            "C": "20%",
+            "D": "10%"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "12_INFO4444_Organizational Culture and Structure for Innovation and Judging IT Innovation.pdf"
+        ]
+    }
+]

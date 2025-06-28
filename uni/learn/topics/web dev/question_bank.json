@@ -1,0 +1,1172 @@
+[
+    {
+        "question": "According to the provided text, what is the primary purpose of tracking tutorial attendance, even though it is not mandatory?",
+        "options": {
+            "A": "To enforce student compliance with the schedule.",
+            "B": "To determine final grades for the course.",
+            "C": "To monitor student progress.",
+            "D": "To allocate marks for participation."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L2_HTML_CSS_WebApplicationDevelopement-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "When is Assignment 1 scheduled to be released, according to the Announcements section?",
+        "options": {
+            "A": "On Monday of Week 1.",
+            "B": "In Week 3 with the introduction to JavaScript.",
+            "C": "Tomorrow, along with today's lecture recording.",
+            "D": "On Friday on Canvas."
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L2_HTML_CSS_WebApplicationDevelopement-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "As described in the text, what is the main characteristic of a markup language?",
+        "options": {
+            "A": "It executes client-side scripts.",
+            "B": "It compiles code for web browsers.",
+            "C": "It annotates a document in a way distinct from the text.",
+            "D": "It defines the visual presentation of elements."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L2_HTML_CSS_WebApplicationDevelopement-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "Which organization is identified as the primary standards organization for the World Wide Web?",
+        "options": {
+            "A": "WHATWG",
+            "B": "ISO",
+            "C": "W3C",
+            "D": "Pearson"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L2_HTML_CSS_WebApplicationDevelopement-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "One of the stated aims of HTML5 is to provide clear instructions for browsers on how to handle what specific issue?",
+        "options": {
+            "A": "Slow network connections.",
+            "B": "User input validation.",
+            "C": "Invalid markup.",
+            "D": "Server-side errors."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L2_HTML_CSS_WebApplicationDevelopement-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "In an HTML `<img>` tag, what is the function of the `alt` attribute?",
+        "options": {
+            "A": "It specifies the width and height of the image.",
+            "B": "It provides a description for users who cannot see the image.",
+            "C": "It sets the image as a background.",
+            "D": "It defines the image source URL."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L2_HTML_CSS_WebApplicationDevelopement-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is the default rendering style for an unordered list (`<ul>`) in a browser?",
+        "options": {
+            "A": "Numbered list",
+            "B": "Bulleted list",
+            "C": "Description list",
+            "D": "Indented text block"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L2_HTML_CSS_WebApplicationDevelopement-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "The HTML5 semantic tag `<article>` is described in the text as being used for which purpose?",
+        "options": {
+            "A": "To contain the main unique content of the document.",
+            "B": "To represent a section containing navigation links.",
+            "C": "To group sidebars or nonessential elements.",
+            "D": "To define blocks of content consumable independently."
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L2_HTML_CSS_WebApplicationDevelopement-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "Where does the text recommend placing CSS styles for optimal maintainability?",
+        "options": {
+            "A": "Inline within HTML elements.",
+            "B": "In an embedded stylesheet within the `<head>`.",
+            "C": "In an external file linked to the HTML document.",
+            "D": "Directly in the `<body>` using `<style>` tags."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L2_HTML_CSS_WebApplicationDevelopement-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "What is the general principle mentioned in the text for resolving conflicting style rules in CSS?",
+        "options": {
+            "A": "Selection Priority",
+            "B": "Specificity Override",
+            "C": "Cascading",
+            "D": "Document Order"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L2_HTML_CSS_WebApplicationDevelopement-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, which HTML element is used to create a table structure?",
+        "options": {
+            "A": "<tr>",
+            "B": "<td>",
+            "C": "<table>",
+            "D": "<th>"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L3_HTML_Clientside_JavaScript-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "The text mentions key motivations for introducing new form controls in HTML5. Which of the following is listed as a motivation?",
+        "options": {
+            "A": "Server-side validation",
+            "B": "Improved Security",
+            "C": "Client-side validation",
+            "D": "Faster loading times"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L3_HTML_Clientside_JavaScript-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "What does the text recommend using instead of `var` for declaring variables and constants in modern JavaScript programming practice?",
+        "options": {
+            "A": "`const` and `let`",
+            "B": "`static` and `public`",
+            "C": "`int` and `string`",
+            "D": "`global` and `local`"
+        },
+        "correct_answer": "A",
+        "source_pdfs": [
+            "L3_HTML_Clientside_JavaScript-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following JavaScript methods is specifically described as displaying content in the Browser\u2019s JavaScript console?",
+        "options": {
+            "A": "`alert()`",
+            "B": "`document.write()`",
+            "C": "`console.log()`",
+            "D": "`window.print()`"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L3_HTML_Clientside_JavaScript-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "Based on the JavaScript snippet provided in the text about Primitive vs. Reference Types, what is the value of `foo[0]` after the line `bar[0] = 200;` is executed?",
+        "options": {
+            "A": "45",
+            "B": "35",
+            "C": "25",
+            "D": "200"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L3_HTML_Clientside_JavaScript-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "How does the browser package user data from an HTML form to send it to the server, according to the text?",
+        "options": {
+            "A": "As an XML document",
+            "B": "Into a query string",
+            "C": "Using JSON format",
+            "D": "As binary data"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L3_HTML_Clientside_JavaScript-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "What is described as the easiest way of creating an object in JavaScript according to the text?",
+        "options": {
+            "A": "Using the `new` keyword with a constructor",
+            "B": "Using Object Literal notation",
+            "C": "Calling the `Object()` constructor",
+            "D": "Defining a class and instantiating it"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L3_HTML_Clientside_JavaScript-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "What is the primary role of the Document Object Model (DOM) in the context of client-side JavaScript, as described in the text?",
+        "options": {
+            "A": "To manage server-side databases",
+            "B": "To define JavaScript variable scopes",
+            "C": "To present HTML elements as a set of objects that can be accessed and modified",
+            "D": "To handle network requests between client and server"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L3_HTML_Clientside_JavaScript-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is a function that describes what to do when an event happens called?",
+        "options": {
+            "A": "An event listener",
+            "B": "An event object",
+            "C": "An event handler",
+            "D": "A callback function"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L3_HTML_Clientside_JavaScript-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "Based on the text's description, what is a key difference between `<input type=\"button\">` and the `<button>` element?",
+        "options": {
+            "A": "`<input type=\"button\">` is only for submitting forms, while `<button>` is for resetting them",
+            "B": "`<button>` allows for more customized content (like images and text) within the button, while `<input type=\"button\">` does not",
+            "C": "`<input type=\"button\">` requires JavaScript for action, while `<button>` does not",
+            "D": "`<button>` is an older element, while `<input type=\"button\">` was introduced in HTML5"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L3_HTML_Clientside_JavaScript-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "What is the course code combination mentioned in the provided text for Web Application Development?",
+        "options": {
+            "A": "COMP4347 and COMP5347",
+            "B": "COMP4347 and COMP5357",
+            "C": "COMP4357 and COMP5347",
+            "D": "COMP4347 only"
+        },
+        "correct_answer": "A",
+        "source_pdfs": [
+            "L4_The Browser and the Rendering Process-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, which type of HTTP connection management allows successive requests to be sent without waiting for a response?",
+        "options": {
+            "A": "Short-lived",
+            "B": "Persistent (keep-alive)",
+            "C": "Pipelining",
+            "D": "Serializing"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L4_The Browser and the Rendering Process-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "What is one of the stated goals of caching in HTTP, according to the provided text?",
+        "options": {
+            "A": "To encrypt data transmission",
+            "B": "To reduce network bandwidth by sending less full responses",
+            "C": "To verify the identity of the server",
+            "D": "To increase the number of parallel connections"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L4_The Browser and the Rendering Process-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "The text mentions specific HTTP headers used on the requestor side for cache validation. Which of the following is listed as such a header?",
+        "options": {
+            "A": "Cache-Control",
+            "B": "Last-Modified",
+            "C": "If-Match",
+            "D": "max-age"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L4_The Browser and the Rendering Process-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "What is the output of the Layout (Reflow) process in the browser rendering path, as described in the text?",
+        "options": {
+            "A": "The CSSOM tree",
+            "B": "The Render tree",
+            "C": "A \"box model\" capturing the exact position of each element",
+            "D": "The final painted pixels on the screen"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L4_The Browser and the Rendering Process-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, which two resource types are typically considered \"render blocking\" because the browser needs them before it can start to display something?",
+        "options": {
+            "A": "Images and JavaScript",
+            "B": "HTML and CSS",
+            "C": "JavaScript and CSSOM",
+            "D": "HTML and DOM"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L4_The Browser and the Rendering Process-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "How does the browser typically handle an external JavaScript file encountered during DOM construction, according to the text?",
+        "options": {
+            "A": "It ignores the script until the DOM construction is complete.",
+            "B": "It continues constructing the DOM tree and executes the script asynchronously.",
+            "C": "It stops constructing the DOM tree and waits for the file to be downloaded and executed before continuing.",
+            "D": "It requests the file but immediately continues DOM construction without waiting for execution."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L4_The Browser and the Rendering Process-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "What is the primary function of the CSS Object Model (CSSOM) according to the text?",
+        "options": {
+            "A": "To represent HTML elements as nodes in a tree structure.",
+            "B": "To define generic parsing and serialization rules for CSS files, media queries, and selectors.",
+            "C": "To combine the DOM and CSSOM into a render tree.",
+            "D": "To compute the exact position and size of each object on the page."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L4_The Browser and the Rendering Process-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is the effect of marking a script tag with the \"async\" keyword?",
+        "options": {
+            "A": "It makes the script parser-blocking by default.",
+            "B": "It allows the browser to continue DOM construction and execute the script when it is ready.",
+            "C": "It prevents the script from modifying the DOM.",
+            "D": "It forces the script to execute before any CSS is processed."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L4_The Browser and the Rendering Process-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "In the context of analyzing Critical Rendering Path performance patterns, what does \"Critical Bytes\" refer to?",
+        "options": {
+            "A": "The total amount of data transferred for all resources on the page.",
+            "B": "The size of the HTML file itself.",
+            "C": "The total amount of bytes required to get before rendering the page, summing the transfer sizes of all critical resources.",
+            "D": "The number of round trips needed to fetch all resources."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L4_The Browser and the Rendering Process-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "What is the primary purpose of server-side development according to the text?",
+        "options": {
+            "A": "To style web pages using CSS.",
+            "B": "To create script that dynamically generate content.",
+            "C": "To handle user interface interactions in the browser.",
+            "D": "To manage database connections directly from the client."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L5-ServerDev_NodeJS-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "According to the context, what does the acronym LAMP stand for in the context of application stacks for web servers?",
+        "options": {
+            "A": "Linux, Apache, MongoDB, Python",
+            "B": "Linux, Apache, MySQL, PHP",
+            "C": "Linux, Angular, MySQL, Python",
+            "D": "Linux, Apache, Microsoft IIS, PostgreSQL"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L5-ServerDev_NodeJS-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "In HTTP/1.0, what is the specific purpose of the HEAD request method?",
+        "options": {
+            "A": "To upload a file to the server.",
+            "B": "To request the server to leave the requested object out of the response.",
+            "C": "To delete a file specified in the URL.",
+            "D": "To send data to the server as part of the request body."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L5-ServerDev_NodeJS-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "Based on the HTTP Response Status Code categories provided, what does a 3XX status code typically indicate?",
+        "options": {
+            "A": "Success",
+            "B": "Informational",
+            "C": "Redirection",
+            "D": "Client error"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L5-ServerDev_NodeJS-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, how are static content files typically located by a basic web server?",
+        "options": {
+            "A": "By executing a server-side script to find the file.",
+            "B": "By referring to a database mapping the URL to the file path.",
+            "C": "By using a predefined mapping between the URL path info and the local file system path info.",
+            "D": "By making an asynchronous callback to an external service."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L5-ServerDev_NodeJS-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is a key characteristic of Node.js server architecture, as mentioned in the text, compared to many traditional servers that handle requests at the thread level?",
+        "options": {
+            "A": "Node.js handles requests using a large thread pool.",
+            "B": "Node.js runs on multiple dedicated processes per request.",
+            "C": "Node.js server runs on a single thread.",
+            "D": "Node.js uses a separate process for each concurrent request."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L5-ServerDev_NodeJS-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "In the Node.js file-based module system (CommonJS), how is a module typically imported for use in another file?",
+        "options": {
+            "A": "Using a global `import` keyword.",
+            "B": "By accessing the `module.exports` variable directly.",
+            "C": "Using the globally available `require` function.",
+            "D": "By declaring the module name at the top of the file."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L5-ServerDev_NodeJS-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "In a simple Node.js HTTP server application handling a POST request, how is the request body data typically accessed and processed?",
+        "options": {
+            "A": "It is automatically parsed and available in the `req.query` object.",
+            "B": "It is accessed by listening to the 'data' and 'end' events on the request object.",
+            "C": "It must be explicitly read from a file system path specified in the request headers.",
+            "D": "It is available in the `req.body` property by default."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L5-ServerDev_NodeJS-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "In the context of the Express framework, what is the primary role of \"Routing\"?",
+        "options": {
+            "A": "To manage the application's session state.",
+            "B": "To define the mapping between HTTP requests (method, URL) and the code that handles them.",
+            "C": "To parse the request body for incoming data.",
+            "D": "To translate template files into HTML."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L5-ServerDev_NodeJS-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is an important consideration regarding the order in which middleware is loaded in an Express application?",
+        "options": {
+            "A": "The loading order only affects performance, not functionality.",
+            "B": "Middleware functions are executed in the reverse order they are declared.",
+            "C": "The order of middleware loading is important because functions loaded first are executed first.",
+            "D": "Middleware order is irrelevant as they all run concurrently."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L5-ServerDev_NodeJS-COMP5347-Updated.pdf"
+        ]
+    },
+    {
+        "question": "According to the outline provided in the text, which of the following topics is scheduled for Week 6 of COMP5347?",
+        "options": {
+            "A": "Cloud Deployment",
+            "B": "Session Management",
+            "C": "Frontend Frameworks",
+            "D": "Object-Relational Mapping"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L6_Node_Express_MVC_IntrotoMongo-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "The text identifies a key issue with the initial Survey app code (Week 5 lab example) for larger applications. What is this issue?",
+        "options": {
+            "A": "It uses excessive memory",
+            "B": "There is a single JS file with all settings and route methods",
+            "C": "It cannot handle concurrent requests",
+            "D": "It lacks support for static files"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L6_Node_Express_MVC_IntrotoMongo-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "Based on the definitions provided, which type of variable scope is available just to components handling the current request (controller, view, model)?",
+        "options": {
+            "A": "Application scope",
+            "B": "Session scope",
+            "C": "Global scope",
+            "D": "Request scope"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L6_Node_Express_MVC_IntrotoMongo-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "In the context of CommonJS modules as described, what object is contained in each module and allows you to expose pieces of your code when the module is loaded?",
+        "options": {
+            "A": "`module`",
+            "B": "`requires()`",
+            "C": "`exports`",
+            "D": "`filename`"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L6_Node_Express_MVC_IntrotoMongo-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is the primary role of the Express Router middleware (`express.Router()`)?",
+        "options": {
+            "A": "To establish database connections",
+            "B": "To group route handlers for a particular part of a web application",
+            "C": "To manage application scope variables",
+            "D": "To parse JSON data from incoming requests"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L6_Node_Express_MVC_IntrotoMongo-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "In the updated survey controller code (surveysession.server.controller.js), how is session scope data accessed and modified?",
+        "options": {
+            "A": "Using `req.app.locals`",
+            "B": "Using `req.params`",
+            "C": "Using `req.session`",
+            "D": "Using `req.body`"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L6_Node_Express_MVC_IntrotoMongo-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "The text states that HTTP is fundamentally stateless. What does this characteristic imply about web applications?",
+        "options": {
+            "A": "Each request by default is treated as a separate session",
+            "B": "Servers cannot send responses back to clients",
+            "C": "Clients cannot send data to servers",
+            "D": "Databases are not required for web applications"
+        },
+        "correct_answer": "A",
+        "source_pdfs": [
+            "L6_Node_Express_MVC_IntrotoMongo-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, how does a server typically identify a client's session after the first request?",
+        "options": {
+            "A": "By requesting the client's username and password",
+            "B": "By storing the client's IP address",
+            "C": "By creating and sending an ID to the client, which the client later sends back",
+            "D": "By examining the browser's user agent string"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L6_Node_Express_MVC_IntrotoMongo-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "In the comparison between SQL and MongoDB terminology, what is the MongoDB equivalent of a 'Row' in a traditional SQL database?",
+        "options": {
+            "A": "Collection",
+            "B": "Field",
+            "C": "Document",
+            "D": "Index"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L6_Node_Express_MVC_IntrotoMongo-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the MongoDB query examples shown in the text, which operator is used within a query document to specify a condition for an embedded document field?",
+        "options": {
+            "A": "`$set`",
+            "B": "`$elemMatch`",
+            "C": "`$push`",
+            "D": "`$unset`"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L6_Node_Express_MVC_IntrotoMongo-COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the 'Context Text', what is the primary purpose of indexing in a database?",
+        "options": {
+            "A": "To ensure data consistency across multiple collections.",
+            "B": "To encrypt data before it is stored.",
+            "C": "To make it efficient to find certain rows/documents in a table/collection.",
+            "D": "To define the structure or shape of documents in a collection."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L7_DatabaseLayer_Mongoose_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "Based on the text, what search complexity can potentially be achieved with a hash table data structure?",
+        "options": {
+            "A": "O(n)",
+            "B": "O(log2 n)",
+            "C": "O(n log n)",
+            "D": "O(1)"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L7_DatabaseLayer_Mongoose_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "In MongoDB, which specific index is automatically created for all collections and enforces uniqueness for its keys?",
+        "options": {
+            "A": "Single-field index",
+            "B": "Compound index",
+            "C": "The _id index",
+            "D": "A sparse index"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L7_DatabaseLayer_Mongoose_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "When creating a single-field index in MongoDB, what property can be specified to ensure that MongoDB rejects duplicate values for the indexed field?",
+        "options": {
+            "A": "Sparse",
+            "B": "Direction",
+            "C": "Unique",
+            "D": "B-Tree"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L7_DatabaseLayer_Mongoose_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, which aspect is considered 'very important' for a MongoDB compound index?",
+        "options": {
+            "A": "The data type of the fields included.",
+            "B": "The size of the index file compared to the original file.",
+            "C": "The order of field in the compound index.",
+            "D": "Whether the index is sparse or not."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L7_DatabaseLayer_Mongoose_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "The text mentions that designing database access might involve extracting database details like connection strings and field names into separate functions or classes. What term is used to describe these details?",
+        "options": {
+            "A": "Properties",
+            "B": "Externalities",
+            "C": "Schemas",
+            "D": "Documents"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L7_DatabaseLayer_Mongoose_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is Mongoose described as in relation to the basic MongoDB Node.js driver?",
+        "options": {
+            "A": "A native driver itself.",
+            "B": "A lower-level module providing basic support.",
+            "C": "A higher-level module built on top of the basic driver, providing more convenient ways.",
+            "D": "An alternative database management system."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L7_DatabaseLayer_Mongoose_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "In Mongoose, what is the term for a compiled version of a schema that is binded with a collection?",
+        "options": {
+            "A": "Document",
+            "B": "Model",
+            "C": "Instance",
+            "D": "Path"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L7_DatabaseLayer_Mongoose_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, when a callback function is not passed as a parameter to a Mongoose query method, what does the method return?",
+        "options": {
+            "A": "The actual query results directly.",
+            "B": "An error object.",
+            "C": "An instance of the query, enabling chaining.",
+            "D": "A boolean indicating success or failure."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L7_DatabaseLayer_Mongoose_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "In Mongoose, on which object type are 'instance methods' defined and called?",
+        "options": {
+            "A": "On the Schema",
+            "B": "On the Model",
+            "C": "On individual document instances",
+            "D": "On the Mongoose connection object"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L7_DatabaseLayer_Mongoose_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what purpose does a library or framework serve in software development?",
+        "options": {
+            "A": "It replaces the need for any custom code.",
+            "B": "It provides common implementations of standard ideas.",
+            "C": "It is exclusively used for server-side operations.",
+            "D": "It guarantees a pure passive reception of data."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L8_Clientside_Frameworks_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "Based on the \"Popular Front-End Frameworks\" section, which company is associated with the creation of the React framework?",
+        "options": {
+            "A": "Google",
+            "B": "Facebook",
+            "C": "Microsoft",
+            "D": "Apple"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L8_Clientside_Frameworks_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "The text states that jQuery is designed to run consistently across all major browsers. What specific knowledge or issues does jQuery consider to achieve this?",
+        "options": {
+            "A": "Server-side configurations",
+            "B": "Database compatibility",
+            "C": "Cross-browser knowledge and issues",
+            "D": "Network latency"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L8_Clientside_Frameworks_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "What is identified in the text as a potential disadvantage of hosting the jQuery library using a Content Delivery Network (CDN)?",
+        "options": {
+            "A": "It increases the demand on your servers.",
+            "B": "It prevents the user from caching the file.",
+            "C": "jQuery will fail if the third-party host fails.",
+            "D": "It is always slower than local installation."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L8_Clientside_Frameworks_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "In jQuery syntax, what is the primary purpose of the `jQuery()` or `$` function?",
+        "options": {
+            "A": "To perform an action on an element.",
+            "B": "To define or access jQuery and \"query (or find)\" HTML elements.",
+            "C": "To hide selected elements.",
+            "D": "To return a single DOM object."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L8_Clientside_Frameworks_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the table of Form Selectors, which jQuery selector matches elements that are checked (including radio buttons and checkboxes) and has no direct CSS equivalent listed?",
+        "options": {
+            "A": "`:button`",
+            "B": "`:input`",
+            "C": "`:selected`",
+            "D": "`:checked`"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L8_Clientside_Frameworks_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "Which jQuery method is used to get the HTML contents of an element and can also update the HTML of that element if passed a parameter?",
+        "options": {
+            "A": "`val()`",
+            "B": "`attr()`",
+            "C": "`css()`",
+            "D": "`html()`"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L8_Clientside_Frameworks_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is considered a best practice for placing jQuery code?",
+        "options": {
+            "A": "Inside an asynchronous request callback.",
+            "B": "Directly after the closing `</body>` tag.",
+            "C": "Inside a document ready event.",
+            "D": "At the very beginning of the `<head>` section."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L8_Clientside_Frameworks_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "When a jQuery Ajax request returns a `jqXHR` object, which method listed in the text is used to handle error responses from the server?",
+        "options": {
+            "A": "`done()`",
+            "B": "`always()`",
+            "C": "`fail()`",
+            "D": "`complete()`"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L8_Clientside_Frameworks_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "In the context of the Same Origin Policy (SOP), how is an 'origin' defined according to the provided text?",
+        "options": {
+            "A": "By the file path and extension.",
+            "B": "By the user's IP address and browser type.",
+            "C": "By the protocol, host name, and port number.",
+            "D": "By the server's operating system and web server software."
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L8_Clientside_Frameworks_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the provided document, who is the lecturer for the Web Application Development course (COMP4347/COMP5347) in Semester 1, 2025?",
+        "options": {
+            "A": "Roy Fielding",
+            "B": "Randy Connolly",
+            "C": "Dr. Mehdi Nobakht",
+            "D": "Ricardo Hoar"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L10_Web_Services_COMP5347-updated.pdf"
+        ]
+    },
+    {
+        "question": "What is the specific name of the Copyright Regulations cited in the warning notice?",
+        "options": {
+            "A": "Copyright Act 1968",
+            "B": "Part VB of the Copyright Act",
+            "C": "Copyright Regulations 1969",
+            "D": "Commonwealth Copyright Law"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L10_Web_Services_COMP5347-updated.pdf"
+        ]
+    },
+    {
+        "question": "How is Service-Oriented Architecture (SOA) primarily characterized in the document?",
+        "options": {
+            "A": "A strict communication protocol",
+            "B": "A specific type of database architecture",
+            "C": "A style of software design",
+            "D": "A web browser standard"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L10_Web_Services_COMP5347-updated.pdf"
+        ]
+    },
+    {
+        "question": "The document states that Web Services have at least two implementations. What are these implementations?",
+        "options": {
+            "A": "Standardized and Proprietary services",
+            "B": "HTTP-based and TCP-based services",
+            "C": "Client-side and Server-side services",
+            "D": "SOAP-based and RESTful services"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L10_Web_Services_COMP5347-updated.pdf"
+        ]
+    },
+    {
+        "question": "According to the description of a SOAP message structure, which of the following components is listed as mandatory?",
+        "options": {
+            "A": "Header",
+            "B": "Attachment",
+            "C": "Signature",
+            "D": "Envelope"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L10_Web_Services_COMP5347-updated.pdf"
+        ]
+    },
+    {
+        "question": "What is the function of WSDL (Web Service Description Language) according to the text?",
+        "options": {
+            "A": "To provide a registry for discovering web services",
+            "B": "To define non-functional properties like security",
+            "C": "To serve as a messaging protocol for data transfer",
+            "D": "To provide a standard for describing Web services, including interfaces and methods"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L10_Web_Services_COMP5347-updated.pdf"
+        ]
+    },
+    {
+        "question": "The document describes REST (REpresentation State Transfer) primarily as a:",
+        "options": {
+            "A": "Strict protocol for web communication",
+            "B": "Messaging format based on XML",
+            "C": "Architectural style",
+            "D": "Data storage standard"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L10_Web_Services_COMP5347-updated.pdf"
+        ]
+    },
+    {
+        "question": "In the context of REST basic design principles and common format, which HTTP method is typically used to create a new resource?",
+        "options": {
+            "A": "GET",
+            "B": "PUT",
+            "C": "DELETE",
+            "D": "POST"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L10_Web_Services_COMP5347-updated.pdf"
+        ]
+    },
+    {
+        "question": "When creating REST APIs in Express.js, how are the values captured by route parameters accessed in the application code?",
+        "options": {
+            "A": "Via the `req.query` object",
+            "B": "Via the `req.body` object",
+            "C": "Via the `res.locals` object",
+            "D": "Via the `req.params` object"
+        },
+        "correct_answer": "D",
+        "source_pdfs": [
+            "L10_Web_Services_COMP5347-updated.pdf"
+        ]
+    },
+    {
+        "question": "Which third-party module is specifically mentioned in the document as a general module designed for handling http requests when consuming REST APIs in Node.js?",
+        "options": {
+            "A": "`http`",
+            "B": "`https`",
+            "C": "`request`",
+            "D": "`express`"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L10_Web_Services_COMP5347-updated.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, which term from the STRIDE mnemonic describes an attacker using someone else\u2019s information to access the system?",
+        "options": {
+            "A": "Tampering",
+            "B": "Spoofing",
+            "C": "Repudiation",
+            "D": "Elevation of privilege"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L11_Web_Security_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "Based on the provided text, what is defined as a particular path that a hacker could use to exploit a vulnerability and gain unauthorized access to your system?",
+        "options": {
+            "A": "Cipher",
+            "B": "Threat",
+            "C": "Authentication factor",
+            "D": "Digital signature"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L11_Web_Security_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "In the context of Web App Security as defined in the text, which term describes ensuring that data is accessed or read only by authorized users?",
+        "options": {
+            "A": "Authentication",
+            "B": "Authorization",
+            "C": "Confidentiality",
+            "D": "Data Integrity"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L11_Web_Security_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is the most common practice mentioned for specifying who can access what resources during authorization?",
+        "options": {
+            "A": "Using digital certificates",
+            "B": "Implementing symmetric key encryption",
+            "C": "Role-based access level control",
+            "D": "Using security questions"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L11_Web_Security_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "The text lists several possible places to store credential information for local authentication implementations. Which of the following is mentioned?",
+        "options": {
+            "A": "Cloud storage",
+            "B": "Remote server logs",
+            "C": "Memory",
+            "D": "Version control systems"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L11_Web_Security_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "A benefit of delegating authentication to a third party mentioned in the text is that it can eliminate the need for end users to do what?",
+        "options": {
+            "A": "Validate user input",
+            "B": "Encrypt their data transmissions",
+            "C": "Remember many pairs of username and password for different websites",
+            "D": "Use multi-factor authentication"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L11_Web_Security_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the text's description of OAuth roles, which role is defined as the application making requests on behalf of the resource owner?",
+        "options": {
+            "A": "The Resource Server",
+            "B": "The Client",
+            "C": "The Authorization Server",
+            "D": "The Resource Owner"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L11_Web_Security_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "What specific problem is identified in the text regarding symmetric key encryption?",
+        "options": {
+            "A": "The difficulty in generating mathematically related key pairs.",
+            "B": "The distribution of the key among the communication pair.",
+            "C": "The inability to be used with block ciphers.",
+            "D": "The requirement for a digital signature."
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L11_Web_Security_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "Which of the following is explicitly listed in the text as information included in a Digital Certificate?",
+        "options": {
+            "A": "The subject's private key",
+            "B": "The CA's public key",
+            "C": "The digital certificate serial number",
+            "D": "The symmetric key used for encryption"
+        },
+        "correct_answer": "C",
+        "source_pdfs": [
+            "L11_Web_Security_COMP5347.pdf"
+        ]
+    },
+    {
+        "question": "According to the text, what is a typical solution suggested for preventing SQL injection vulnerabilities, besides input validation?",
+        "options": {
+            "A": "Escaping reserved characters in the input",
+            "B": "Using parameter binding instead of string concatenation for queries",
+            "C": "Encrypting the user's password before storing it",
+            "D": "Implementing a denial of service defense mechanism"
+        },
+        "correct_answer": "B",
+        "source_pdfs": [
+            "L11_Web_Security_COMP5347.pdf"
+        ]
+    }
+]
