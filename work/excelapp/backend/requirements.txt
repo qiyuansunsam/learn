@@ -1,0 +1,6 @@
+Flask
+Flask-Cors
+pandas
+openpyxl
+requests
+python-docx
